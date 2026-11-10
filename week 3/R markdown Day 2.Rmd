@@ -1,0 +1,425 @@
+---
+title: "R DATA ANALYSIS AND VIISUALIZATION"
+author: "Tinotenda Marlon Makwara"
+date: "`r Sys.Date()`"
+---
+
+# INSTALLATION OF PACKAGES
+```{r setup, include=FALSE}
+pacman::p_load(
+  # data importation & wrangling
+  tidyverse, readxl, tidylog, data.table, janitor,
+  
+  # exploratory data analysis
+  skimr, summarytools, psych, Hmisc,
+  
+  # machine learning
+  class,   # KNN classification
+  FNN,    # KNN clustering and nearest neighbours
+  caret,  # General machine learning framework
+  cluster, # cluserting algorithims
+  factoextra, # visualising clustering
+  NbClust, # Finding the optimal number of clusters
+  clValid, # cluster validation
+  e1071, # for various ML models including SVM, Naive Bayes
+  car, # Variance Inflation Factor (VIF)
+  lmtest, # Breusch-Pagan test
+  
+  # visualization
+  ggpubr, plotly, factoextra, RColorBrewer, corrplot, GGally
+)
+```
+
+
+# DATA IMPORTATION AND SUMMARY STATISTICS
+```{r}
+library(psych)
+library(summarytools)
+library(tidyverse)
+pacman::p_load(tidyverse, readxl)
+
+data_file <- file.choose()
+df <- read_excel(data_file)
+head(df)
+
+sum(is.na(df))
+summary(df)
+
+corr_data <- df[,c(-1,-2)]
+
+correlation <- cor(corr_data)
+correlation
+cor.plot(correlation, numbers = T)
+
+dfSummary(df) 
+describe(df)
+skim(df)
+```
+
+
+# VISUALIZATION
+```{r}
+
+
+
+# Model Age vs Number of Dealertships nearby
+df %>%
+  ggplot(aes(x = `Model age`, y = `number of dealerships nearby`)) +
+  ggtitle('Plot of Model age vs Number of dealerships nearby') +
+  xlab('Model Age') +
+  ylab('Number of dealerships nearby') +
+  geom_col()
+
+
+# Model Age vs Vehicle Sale Price, point plot
+df %>%
+  ggplot(aes(x = `Model age`, y = `vechicle sale price`)) +
+  ggtitle('Plot of Model age vs Vehicle sale price') +
+  xlab('Model Age') +
+  ylab('Vehicle Price') +
+  geom_point()
+
+# proximity to urban centres vs vehicle sale price
+df %>%
+  ggplot(aes(x = `proximity to urban centres`, y = `vechicle sale price`)) +
+  ggtitle('Plot of proximity to urban centres vs vehicle sale price') +
+  xlab('proximity to urban centres') +
+  ylab('vehicle sale price') +
+  geom_point()
+
+
+```
+
+```{r}
+?geom_histogram
+# Histogram
+
+df %>%
+  ggplot(aes(x = `vechicle sale price`)) +
+  geom_histogram(color = 'red', fill = 'blue', binwidth = )
+
+```
+
+```{r}
+# Line plot
+df %>%
+  ggplot(aes(x = `sale date`, y = `vechicle sale price`)) +
+  geom_line()
+
+#data("EuStockMarkets")
+#EuStockMarkets
+#plot(EuStockMarkets)
+
+df %>%
+  ggplot(aes(x = `proximity to urban centres`, y = `vechicle sale price`)) +
+  ggtitle('Plot of proximity to urban centres vs vehicle sale price') +
+  xlab('proximity to urban centres') +
+  ylab('vehicle sale price') +
+  geom_point(color = df$`number of dealerships nearby`)
+
+
+iris %>%
+  ggplot(aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) + 
+  geom_point()
+```
+
+```{r}
+df %>% 
+  ggplot(aes(x = `vechicle sale price`, y = `number of dealerships nearby`))+
+  geom_col()
+
+iris %>%
+  ggplot(aes(x = Sepal.Length, fill = Species)) +
+  geom_bar(position = 'dodge')
+
+```
+# LINEAR REGRESSION MODEL
+```{r}
+df_model <- lm(`vechicle sale price` ~ `Model age` + `proximity to urban centres` + `number of dealerships nearby`, data = df)
+
+summary_model <- summary(df_model)
+summary_model
+```
+
+#  NON LINEAR MODEL
+```{r}
+nl_model <- lm(data = df, df$`vechicle sale price` ~ poly(df$`Model age`, 2) + df$`proximity to urban centres` + df$`number of dealerships nearby`)
+summary(nl_model)
+```
+
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(janitor)
+iris_df <- read_excel("C:/Users/hp/Desktop/SchoolOfStatisticians/Data_CW2.xlsx", sheet = "Iris") %>% 
+  clean_names()
+head(iris_df)
+
+# Data wrangling
+# Splitting the string into separate columns
+iris_df <- iris_df %>%
+  separate(x5_2_3_3_4_0_9_iris_versicolor, into = c("sepal_length", "sepal_width", "petal_length", "petal_width", "species"), sep = ",") %>% 
+  mutate(across(sepal_length:petal_width, as.numeric))
+
+
+```
+
+
+
+##Question 1.2
+#a. please briefly explain the concepts of heteroskedasticity and multicollinearity;
+
+*Heteroskedasticity: In regression analysis, heteroskedasticity occurs when the variance of the errors (residuals) is not constant across observations. This means that for some values of the independent variables, the variability of the dependent variable is larger than for others. This violates a key assumption of ordinary least squares (OLS) regression, potentially leading to inefficient estimates and unreliable hypothesis tests. It often manifests in scatter plots as a fan-shaped pattern of residuals.
+
+*Multicollinearity: This arises when independent variables in a regression model are highly correlated with each other. When multicollinearity is present, it becomes difficult to determine the individual effect of each independent variable on the dependent variable because they share variance. This can lead to inflated standard errors and unstable coefficient estimates, making statistical inference less reliable.
+
+#b. and show evidence on why your results in Question 1 do not suffer from such issues;
+
+#To show evidence of multicollinearity, calculate the Variance Inflation Factor (VIF):
+
+```{r}
+##                    model_age   proximity_to_urban_centres 
+##                     1.005925                     1.581166 
+## number_of_dealerships_nearby 
+##                     1.584512
+```
+
+Since all VIF values are well below 5, the model does not suffer from multicollinearity.
+
+#To check for heteroskedasticity, we can use the Breusch-Pagan test:
+
+```{r}
+bp_test <- bptest(df_model)
+```
+
+```{r}
+## 
+##  studentized Breusch-Pagan test
+## 
+## data:  model
+## BP = 3.7586, df = 3, p-value = 0.2887
+```
+
+Since the p-value (0.2887) is greater than 0.05, we fail to reject the null hypothesis, which means no significant evidence of heteroskedasticity in the model.
+
+# c. what are possible methods to address the issues of heteroskedasticity and multicollinearity?
+
+##Heteroskedasticity occurs when residual variance is not constant. You can address it using the following approaches:
+Transform the Dependent Variable:
+Apply a logarithmic transformation (log(y)) to reduce variance.
+
+Use Box-Cox transformation to stabilize variance.
+
+Use Robust Standard Errors:
+Instead of regular OLS errors, use heteroskedasticity-consistent standard errors (HC0, HC3) in statsmodels.
+
+
+# Multicollinearity occurs when independent variables are highly correlated, leading to unreliable coefficient estimates. To fix this:
+Remove Highly Correlated Predictors:
+Use correlation matrices or Variance Inflation Factor (VIF) to identify problematic predictors.
+Combine or Drop Redundant Variables:
+If two variables convey similar information (e.g., “proximity_to_urban_centres” and “number_of_dealerships_nearby”), consider dropping one.
+
+Center or Standardize Data:
+Scaling helps reduce correlation effects.
+
+
+# Question 1.3 One of your colleagues suggests using a nonlinear model instead of a linear model. Please analyse the data and evaluate whether a nonlinear model is a better choice.
+
+```{r}
+nl_model <- lm(data = df, df$`vechicle sale price` ~ poly(df$`Model age`, 2) + df$`proximity to urban centres` + df$`number of dealerships nearby`)
+
+summary(nl_model)
+```
+
+
+# Model Fit
+R-squared: 0.6131—about 61.3% of the variance in sale price is explained by the model.
+
+Adjusted R-squared: 0.6078 lightly lower, but still indicates a fairly good fit compared
+
+
+# Question 2
+You are building an algorithm to determine varieties of iris (versicolor or virginica). You have collected data for a sample of iris. The data include sepal length, sepal width, petal length, petal width, and the variety of the flower. The data are available in the Excel file attached. The data for Task 2 is presented on the sheet ‘Iris’ of the excel file ‘Data_CW2.xlsx’
+
+
+# Question 2.1 Use a Kth-Nearest Neighbour model and the Euclidean distance algorithm to determine the variety of the following observation (6.6, 3.2, 5.1, 1.5). Use relevant theories of the model to justify your choice.
+
+```{r}
+# Load sheet 2 named Iris
+iris_df <- read_excel("D:/Personal/Projects/Datasets/Data_CW2.xlsx", sheet = 'Iris') %>% 
+  clean_names() 
+
+# Splitting the string into separate columns
+iris_df <- iris_df %>%
+  separate(x5_2_3_3_4_0_9_iris_versicolor, into = c("sepal_length", "sepal_width", "petal_length", "petal_width", "species"), sep = ",") %>% 
+  mutate(across(sepal_length:petal_width, as.numeric))
+
+# Convert species to a factor
+iris_df$species <- as.factor(iris_df$species)
+```
+
+```{r}
+# Define new observation
+new_obs <- data.frame(sepal_length = 6.6, sepal_width = 3.2, 
+                      petal_length = 5.1, petal_width = 1.5)
+
+# Train K-NN Model (Assuming K = 3)
+knn_model <- knn3(species ~ ., data = iris_df, k = 3)
+prediction <- predict(knn_model, new_obs, type = "class")
+
+print(prediction)
+```
+
+
+# Interpretation:
+The K-NN algorithm compared the new observation (6.6,3.2,5.1,1.5)(6.6, 3.2, 5.1, 1.5) to the dataset and used Euclidean distance to find the most similar instances.
+
+Since the majority of its nearest neighbors belong to Iris-versicolor, the model assigned this variety.
+
+# Euclidean Distance and Metric Space Theory
+The Euclidean distance metric is based on the mathematical concept of metric spaces, where distances between points determine classification decisions.
+
+Euclidean distance is effective in continuous feature spaces, like the Iris dataset, where sepal and petal measurements create a well-separated classification boundary.
+
+```{r}
+ggplot(iris_df, aes(x = petal_length, y = petal_width, color = species)) +
+  geom_point() +
+  geom_point(aes(x = 5.1, y = 1.5), color = "red", shape = 17, size = 4) +
+  labs(title = "K-NN Classification of New Observation") +
+  theme_minimal()
+```
+
+
+Question 2.2
+When we use the K-NN model to classify an unseen instance,
+a) what might be the problem if we set the value of K to an even number? Please provide the evidence combining the results from Question 2.1.
+When K is even (e.g., K = 2, 4, 6), there is a possibility that the nearest neighbors will be evenly split between two classes, leading to ambiguity in classification.
+
+In Question 2.1, we applied K-NN with K = 3 and correctly classified the new instance (6.6, 3.2, 5.1, 1.5) as Iris-versicolor.
+
+```{r}
+# Train the model with K = 8
+prediction_k8 <- knn(train = iris_df[, 1:4], test = new_obs, cl = iris_df$species, k = 8)
+
+print(prediction_k8)
+```
+
+
+b). What could be a possible solution?
+To resolve the issue of classification ambiguity when using an even value for K, the following solutions can be applied:
+
+1. Use an Odd Number for K
+The simplest solution is to always choose an odd K (e.g., K = 3, 5, 7, 9) to prevent ties.
+
+With an odd K, there will always be a clear majority class, ensuring consistent classification.
+
+2. Apply Weighted Voting
+Instead of a simple majority vote, assign weights based on distance—closer neighbors have more influence.
+
+Formula for Weighted Voting:
+
+wi=1diw_i = \frac{1}{d_i}
+
+where did_i is the Euclidean distance of the neighbor. Smaller distances (closer points) carry more weight in classification.
+
+3. Use Probabilistic Methods
+Instead of forcing a strict classification, use Bayesian probability-based voting to calculate the likelihood of each class.
+
+The model predicts based on probabilities rather than a fixed count of neighbors, reducing ambiguity in ties.
+
+4. Increase K Further
+If an even K causes instability, increasing K to a higher odd number (e.g., K = 11 or 13) can reduce the effect of tie situations.
+
+Larger K values create a smoother decision boundary, reducing the impact of random variations in neighbor selection.
+
+#Question 2.3 Apply 5-NN, 7-NN, and 9-NN models,
+a) show the confusion matrix
+
+```{r}
+# Split into training and testing sets
+set.seed(123)
+train_index <- sample(1:nrow(iris_df), 0.7 * nrow(iris_df))
+train_data <- iris_df[train_index, ]
+test_data <- iris_df[-train_index, ]
+
+# Define a Function to Compute Confusion Matrix
+compute_knn_confusion <- function(k_value) {
+  # Apply K-NN
+  knn_pred <- knn(train = train_data[, 1:4], test = test_data[, 1:4], 
+                   cl = train_data$species, k = k_value)
+  
+  # Generate confusion matrix
+  confusion_matrix <- table(Predicted = knn_pred, Actual = test_data$species)
+  
+  print(paste("Confusion Matrix for K =", k_value))
+  print(confusion_matrix)
+}
+
+# Compute Confusion Matrices for K = 5, 7, and 9
+compute_knn_confusion(5)
+```
+
+```{r}
+compute_knn_confusion(7)
+```
+
+```{r}
+compute_knn_confusion(9)
+```
+
+Observations from the Confusion Matrices
+K = 5 and K = 7 produced identical results:
+
+17 correct Iris-versicolor classifications
+
+10 correct Iris-virginica classifications
+
+1 misclassified Virginica instance as Versicolor
+
+4 misclassified Versicolor instances as Virginica
+
+K = 9 showed a slight improvement:
+
+18 correct Iris-versicolor classifications (one more than K = 5 and K = 7)
+
+10 correct Iris-virginica classifications
+
+1 misclassified Virginica instance
+
+3 misclassified Versicolor instances (one less than K = 5 and K = 7)
+
+Evidence of Model Stability
+Since K = 7 produced identical results to K = 5, the classification remained stable across these values.
+
+K = 9 had fewer misclassifications, suggesting slightly better generalization for Iris-versicolor.
+
+
+b). calculate the accuracy of these models
+
+```{r}
+# Define correct predictions and total test samples
+accuracy_k5 <- (17 + 10) / 32 * 100
+accuracy_k7 <- (17 + 10) / 32 * 100
+accuracy_k9 <- (18 + 10) / 32 * 100
+
+# Print results
+print(paste("Accuracy for K = 5:", accuracy_k5, "%"))
+```
+
+```{r}
+print(paste("Accuracy for K = 7:", accuracy_k7, "%"))
+```
+
+```{r}
+print(paste("Accuracy for K = 9:", accuracy_k9, "%"))
+```
+
+c). Which model do you think is the best? Please explain your choice.
+K = 9 appears to be the best model because it achieved the highest accuracy (87.5%), compared to K = 5 and K = 7 (both 84.375%).
+
+This suggests that K = 9 has a better generalization capability, reducing misclassifications and improving overall performance.
+
+
+

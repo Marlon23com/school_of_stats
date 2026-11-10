@@ -1,0 +1,2001 @@
+Respondent_ID,Age,Gender,Education_Level,Employment_Status,Satisfaction_Score,Awareness_Level,Income_Level,Survey_Completed,Region
+1,56,Male,Diploma,Unemployed,2,High,Middle,No,West
+2,46,Other,Diploma,Self-Employed,3,Low,Low,No,West
+3,32,Male,Master's,Employed,4,Low,High,No,South
+4,60,Male,PhD,Unemployed,1,Low,Middle,Yes,South
+5,25,Female,Master's,Employed,1,Low,Low,Yes,West
+6,38,Other,Master's,Self-Employed,3,Low,Middle,No,Central
+7,56,Male,Diploma,Unemployed,2,Moderate,Middle,Yes,South
+8,36,Male,Master's,Unemployed,4,Moderate,Middle,No,South
+9,40,Other,Diploma,Self-Employed,3,Moderate,High,Yes,North
+10,28,Male,High School,Student,1,Low,Low,No,North
+11,28,Male,PhD,Unemployed,5,High,Middle,Yes,Central
+12,41,Other,Master's,Unemployed,2,Moderate,Middle,No,South
+13,53,Other,Diploma,Employed,5,High,Middle,No,South
+14,57,Other,Bachelor's,Student,3,High,Low,Yes,East
+15,41,Other,Master's,Employed,1,Low,Middle,Yes,Central
+16,20,Female,High School,Employed,4,Low,Middle,Yes,Central
+17,39,Other,High School,Student,5,Low,High,Yes,East
+18,19,Female,Bachelor's,Student,4,Moderate,Low,Yes,East
+19,41,Female,Diploma,Self-Employed,1,Low,High,No,North
+20,61,Female,Master's,Student,5,Moderate,Low,No,Central
+21,47,Male,Diploma,Unemployed,4,Moderate,Low,Yes,Central
+22,55,Female,High School,Student,4,Moderate,Low,No,East
+23,19,Female,Diploma,Self-Employed,5,Moderate,High,No,West
+24,38,Male,High School,Self-Employed,1,Low,High,Yes,West
+25,50,Male,Diploma,Self-Employed,4,Moderate,High,No,North
+26,29,Male,Bachelor's,Student,3,Low,High,No,West
+27,39,Other,PhD,Student,5,Low,Middle,Yes,West
+28,61,Male,Bachelor's,Employed,2,Moderate,Middle,Yes,West
+29,42,Male,Bachelor's,Employed,2,Low,Middle,No,South
+30,44,Female,PhD,Unemployed,1,High,Low,Yes,North
+31,59,Male,PhD,Employed,3,Low,Middle,No,East
+32,45,Other,Master's,Unemployed,4,Low,Low,Yes,West
+33,33,Male,Master's,Self-Employed,2,Moderate,High,Yes,South
+34,32,Other,Bachelor's,Employed,1,Moderate,Low,Yes,West
+35,64,Male,Bachelor's,Student,3,Low,Low,Yes,South
+36,61,Male,High School,Employed,3,Moderate,Middle,No,North
+37,20,Male,High School,Unemployed,1,High,High,Yes,West
+38,54,Male,Master's,Employed,1,High,High,Yes,South
+39,24,Other,Master's,Self-Employed,4,Moderate,Middle,No,Central
+40,38,Other,High School,Student,1,Low,High,No,Central
+41,26,Female,High School,Unemployed,4,High,High,No,South
+42,56,Other,Diploma,Student,4,High,High,No,West
+43,35,Male,Diploma,Student,5,Low,Middle,Yes,West
+44,21,Female,High School,Unemployed,3,Moderate,High,No,North
+45,42,Female,Diploma,Student,3,High,Low,Yes,North
+46,31,Female,PhD,Student,3,Low,Low,No,East
+47,26,Male,Master's,Employed,5,Low,High,Yes,North
+48,43,Other,Master's,Student,4,High,Middle,No,West
+49,19,Male,High School,Student,4,Moderate,Middle,Yes,East
+50,37,Female,Bachelor's,Student,1,High,Middle,Yes,North
+51,45,Male,High School,Student,5,Low,High,No,South
+52,64,Male,Diploma,Unemployed,1,High,High,Yes,Central
+53,24,Other,Bachelor's,Self-Employed,5,Moderate,Low,Yes,North
+54,61,Other,Diploma,Employed,1,Low,Middle,Yes,North
+55,25,Female,PhD,Student,2,Moderate,Low,Yes,South
+56,64,Male,Diploma,Student,3,High,Low,No,West
+57,52,Male,PhD,Unemployed,3,High,Middle,Yes,South
+58,31,Other,PhD,Self-Employed,4,Moderate,High,Yes,North
+59,34,Male,Diploma,Student,2,High,High,No,West
+60,53,Male,Diploma,Unemployed,3,Moderate,Low,No,East
+61,57,Male,PhD,Employed,4,High,Low,No,North
+62,21,Other,Bachelor's,Employed,2,Moderate,Low,Yes,South
+63,19,Female,PhD,Student,3,Moderate,Low,Yes,East
+64,23,Female,Master's,Student,1,Low,Middle,No,Central
+65,59,Male,PhD,Self-Employed,5,Low,Low,Yes,East
+66,21,Female,Bachelor's,Self-Employed,2,Moderate,Low,No,South
+67,46,Other,Master's,Student,4,High,High,Yes,East
+68,35,Other,High School,Unemployed,2,High,High,No,South
+69,43,Female,High School,Self-Employed,4,High,High,Yes,North
+70,61,Female,Bachelor's,Student,2,Moderate,Middle,No,West
+71,51,Male,PhD,Self-Employed,4,Moderate,Middle,Yes,Central
+72,27,Female,Diploma,Student,3,Moderate,High,No,West
+73,53,Male,Bachelor's,Employed,1,Moderate,High,Yes,West
+74,31,Male,Master's,Student,3,Low,Low,Yes,West
+75,48,Other,Master's,Employed,1,Moderate,Low,Yes,South
+76,32,Other,High School,Self-Employed,3,High,Middle,No,South
+77,25,Other,Master's,Student,3,Low,Middle,Yes,Central
+78,31,Other,Bachelor's,Self-Employed,2,High,Low,Yes,South
+79,40,Female,Master's,Employed,5,Moderate,High,Yes,South
+80,57,Other,Bachelor's,Student,4,Low,Low,No,South
+81,38,Female,Diploma,Self-Employed,4,Moderate,Middle,Yes,South
+82,33,Other,High School,Employed,4,Low,Middle,No,North
+83,62,Female,Master's,Self-Employed,1,High,Low,Yes,Central
+84,35,Male,Bachelor's,Unemployed,4,Moderate,Low,No,South
+85,64,Female,PhD,Employed,4,Moderate,Low,No,Central
+86,41,Female,High School,Employed,2,Low,Middle,Yes,East
+87,43,Other,Diploma,Employed,3,Low,High,No,North
+88,42,Female,Bachelor's,Student,4,Moderate,Low,No,South
+89,62,Male,Diploma,Student,5,Low,Middle,Yes,North
+90,58,Male,Diploma,Student,4,Moderate,Middle,No,North
+91,46,Other,Master's,Unemployed,1,Low,Middle,No,East
+92,32,Male,Master's,Unemployed,1,High,Low,No,Central
+93,62,Female,Bachelor's,Employed,1,Low,Low,No,North
+94,18,Male,PhD,Unemployed,4,High,High,Yes,West
+95,42,Other,Bachelor's,Self-Employed,2,Low,Middle,No,East
+96,24,Female,PhD,Employed,5,Low,Low,No,West
+97,26,Other,Diploma,Employed,4,Moderate,Middle,Yes,East
+98,41,Female,High School,Self-Employed,2,Low,Middle,Yes,West
+99,18,Male,Bachelor's,Employed,2,Low,High,No,West
+100,61,Other,Bachelor's,Unemployed,4,High,Low,Yes,North
+101,25,Other,PhD,Student,4,Low,Low,Yes,North
+102,41,Female,Diploma,Self-Employed,2,Moderate,Middle,Yes,East
+103,28,Other,Diploma,Unemployed,2,High,Middle,Yes,Central
+104,34,Female,PhD,Self-Employed,2,Moderate,High,Yes,North
+105,25,Female,Diploma,Self-Employed,4,Moderate,High,Yes,North
+106,52,Female,Master's,Employed,2,Moderate,High,Yes,South
+107,52,Female,High School,Employed,1,Moderate,High,Yes,North
+108,50,Male,Bachelor's,Unemployed,4,High,High,Yes,Central
+109,22,Female,High School,Self-Employed,1,Low,High,No,South
+110,59,Other,Bachelor's,Employed,3,Moderate,Middle,No,West
+111,56,Male,Master's,Employed,4,High,High,No,West
+112,58,Other,Diploma,Self-Employed,3,Moderate,Middle,No,South
+113,45,Male,PhD,Unemployed,2,Low,Middle,No,South
+114,24,Female,Master's,Unemployed,2,High,Low,Yes,South
+115,26,Male,High School,Self-Employed,5,High,Middle,Yes,East
+116,25,Male,PhD,Unemployed,2,Low,Middle,No,Central
+117,29,Other,Diploma,Employed,3,High,High,No,Central
+118,51,Other,Master's,Self-Employed,2,Low,Middle,Yes,West
+119,50,Female,PhD,Employed,4,High,High,No,West
+120,40,Male,Master's,Student,2,High,High,Yes,West
+121,41,Male,Master's,Student,5,Low,High,No,North
+122,54,Male,Diploma,Unemployed,2,Low,Low,Yes,West
+123,52,Female,Bachelor's,Student,3,High,High,No,South
+124,61,Female,PhD,Employed,3,High,Middle,Yes,West
+125,57,Female,Diploma,Student,2,Low,High,No,South
+126,39,Female,Master's,Employed,3,Low,High,No,East
+127,44,Female,Diploma,Unemployed,3,High,High,Yes,North
+128,52,Other,Bachelor's,Unemployed,5,High,Low,Yes,North
+129,18,Male,PhD,Employed,4,High,Middle,No,Central
+130,52,Male,Bachelor's,Student,5,Low,Low,No,East
+131,54,Male,High School,Unemployed,1,High,Middle,Yes,South
+132,64,Male,PhD,Self-Employed,5,Moderate,Low,Yes,East
+133,31,Male,Bachelor's,Unemployed,2,Low,Middle,Yes,North
+134,20,Male,Master's,Student,4,High,Low,No,South
+135,18,Male,PhD,Self-Employed,2,Low,High,No,East
+136,22,Male,PhD,Student,1,Moderate,Low,Yes,North
+137,43,Other,Diploma,Employed,4,Low,Low,No,South
+138,31,Male,Master's,Self-Employed,3,High,High,No,South
+139,56,Other,High School,Student,5,Moderate,High,Yes,North
+140,44,Female,Bachelor's,Self-Employed,2,Moderate,Middle,No,South
+141,26,Male,Diploma,Student,1,High,Middle,Yes,North
+142,32,Female,Bachelor's,Self-Employed,3,High,Middle,Yes,West
+143,32,Female,High School,Student,5,High,Low,No,West
+144,43,Female,High School,Employed,3,Low,Middle,No,South
+145,59,Other,PhD,Self-Employed,5,Low,Low,Yes,South
+146,30,Female,High School,Self-Employed,4,Low,Low,Yes,North
+147,49,Female,Bachelor's,Self-Employed,3,High,Middle,Yes,South
+148,56,Female,Master's,Self-Employed,3,High,Middle,No,Central
+149,49,Male,Master's,Employed,3,Low,Low,Yes,West
+150,21,Male,PhD,Self-Employed,4,Moderate,High,Yes,South
+151,47,Other,Bachelor's,Unemployed,1,Low,High,Yes,South
+152,54,Other,Bachelor's,Employed,5,Moderate,Low,Yes,East
+153,40,Male,High School,Unemployed,3,High,Middle,No,South
+154,56,Other,Bachelor's,Self-Employed,4,High,Low,No,Central
+155,62,Male,Diploma,Student,1,Low,Low,Yes,West
+156,32,Female,High School,Unemployed,5,Low,Middle,No,East
+157,60,Female,Diploma,Self-Employed,4,High,High,No,North
+158,46,Other,PhD,Unemployed,5,Low,Low,No,North
+159,53,Male,Master's,Self-Employed,3,High,High,Yes,West
+160,30,Male,PhD,Self-Employed,1,High,High,No,North
+161,49,Other,Master's,Self-Employed,4,Moderate,Middle,No,Central
+162,24,Male,PhD,Student,1,Low,Low,Yes,South
+163,39,Female,Bachelor's,Unemployed,3,High,Low,Yes,West
+164,45,Other,Diploma,Employed,1,Low,High,No,East
+165,19,Other,Master's,Employed,1,Moderate,High,No,South
+166,59,Male,High School,Employed,2,Moderate,Middle,Yes,North
+167,62,Other,Diploma,Employed,1,Low,High,Yes,North
+168,23,Male,High School,Self-Employed,5,Low,Middle,Yes,East
+169,45,Male,Diploma,Unemployed,4,High,Low,Yes,Central
+170,45,Male,Diploma,Unemployed,2,Moderate,Middle,No,East
+171,61,Male,PhD,Student,4,Moderate,High,Yes,West
+172,61,Male,Master's,Unemployed,4,Moderate,Low,No,East
+173,37,Other,Master's,Unemployed,3,Low,Middle,No,North
+174,47,Female,Diploma,Unemployed,3,High,Low,No,Central
+175,28,Female,Bachelor's,Student,2,Low,Middle,Yes,Central
+176,45,Other,Bachelor's,Employed,3,Low,High,Yes,East
+177,42,Other,High School,Unemployed,3,Low,High,No,West
+178,56,Female,High School,Student,3,High,Low,No,North
+179,50,Female,PhD,Student,4,Low,Low,No,South
+180,18,Female,Diploma,Self-Employed,2,Moderate,Low,No,Central
+181,44,Female,High School,Student,4,Moderate,Middle,No,East
+182,30,Female,High School,Employed,5,Moderate,High,Yes,West
+183,58,Male,Diploma,Unemployed,4,High,Low,Yes,West
+184,20,Other,PhD,Student,5,Low,Low,Yes,North
+185,56,Male,High School,Employed,1,High,Low,No,Central
+186,23,Female,PhD,Student,1,Low,Middle,No,North
+187,25,Female,Master's,Student,5,Moderate,Low,Yes,South
+188,44,Female,PhD,Student,5,Low,Low,Yes,South
+189,26,Male,Bachelor's,Student,4,Low,Middle,No,South
+190,54,Male,Bachelor's,Student,5,Low,Middle,Yes,West
+191,50,Female,PhD,Employed,2,High,Low,Yes,Central
+192,59,Male,Bachelor's,Unemployed,1,Low,Low,Yes,North
+193,61,Male,Master's,Unemployed,1,Low,Middle,No,North
+194,41,Female,Diploma,Unemployed,5,Low,High,No,South
+195,32,Male,Bachelor's,Unemployed,3,High,Middle,Yes,Central
+196,49,Other,Bachelor's,Employed,3,High,High,No,Central
+197,49,Other,PhD,Self-Employed,5,High,Low,Yes,East
+198,41,Other,Master's,Self-Employed,2,Low,Low,Yes,Central
+199,58,Other,Diploma,Employed,3,Moderate,High,No,Central
+200,29,Female,PhD,Employed,5,Moderate,Middle,No,North
+201,56,Female,PhD,Student,2,Moderate,Low,No,Central
+202,19,Female,Master's,Student,2,Low,High,Yes,Central
+203,20,Other,Diploma,Student,4,Moderate,Middle,Yes,North
+204,54,Other,Master's,Unemployed,2,Moderate,High,Yes,Central
+205,34,Male,Diploma,Student,3,Moderate,Middle,No,North
+206,19,Male,Master's,Self-Employed,3,Low,Middle,Yes,East
+207,19,Other,PhD,Unemployed,5,Moderate,Middle,Yes,West
+208,45,Other,PhD,Student,5,Moderate,Middle,Yes,North
+209,40,Other,High School,Unemployed,2,Low,High,Yes,North
+210,54,Other,Bachelor's,Self-Employed,1,High,High,No,Central
+211,49,Male,Master's,Student,4,Moderate,High,No,North
+212,50,Other,High School,Self-Employed,1,High,High,No,South
+213,18,Male,Bachelor's,Self-Employed,2,Moderate,High,Yes,South
+214,36,Other,Master's,Self-Employed,2,Low,Middle,Yes,East
+215,19,Other,Diploma,Student,1,High,Low,Yes,North
+216,61,Other,Bachelor's,Employed,4,High,Low,No,Central
+217,43,Male,PhD,Student,1,High,High,No,Central
+218,49,Male,High School,Self-Employed,5,High,High,No,West
+219,23,Female,Bachelor's,Student,3,Moderate,Low,No,East
+220,49,Other,Bachelor's,Self-Employed,5,Moderate,Middle,No,Central
+221,21,Female,PhD,Employed,3,High,High,Yes,West
+222,28,Female,Master's,Unemployed,2,Moderate,Middle,No,Central
+223,34,Male,Diploma,Employed,4,High,Low,No,West
+224,55,Male,PhD,Employed,1,High,Low,No,South
+225,41,Female,Diploma,Unemployed,4,Low,High,Yes,South
+226,22,Other,Master's,Student,1,High,Middle,No,Central
+227,51,Male,Bachelor's,Unemployed,5,Moderate,High,No,East
+228,23,Other,Diploma,Student,5,High,Low,No,North
+229,39,Other,High School,Student,1,Low,Middle,Yes,East
+230,28,Female,High School,Self-Employed,4,Moderate,High,Yes,East
+231,33,Female,PhD,Self-Employed,1,Low,High,No,North
+232,50,Female,Master's,Unemployed,2,Low,High,No,South
+233,26,Female,PhD,Employed,5,High,Low,No,South
+234,23,Male,PhD,Unemployed,2,Low,High,No,North
+235,33,Male,PhD,Student,5,Low,Middle,Yes,West
+236,46,Female,High School,Self-Employed,5,Moderate,High,No,East
+237,20,Male,High School,Unemployed,3,Low,Low,Yes,Central
+238,37,Female,PhD,Unemployed,2,High,High,No,South
+239,53,Other,High School,Self-Employed,2,High,Low,Yes,Central
+240,36,Other,Master's,Self-Employed,3,High,Low,Yes,North
+241,43,Other,PhD,Self-Employed,4,Low,Middle,No,Central
+242,20,Female,High School,Student,2,Moderate,Middle,Yes,Central
+243,36,Other,Diploma,Self-Employed,1,High,High,No,East
+244,37,Male,PhD,Employed,3,Low,Low,Yes,North
+245,49,Other,PhD,Unemployed,2,High,Low,Yes,Central
+246,24,Other,Master's,Self-Employed,4,High,Middle,No,South
+247,58,Other,Bachelor's,Self-Employed,2,Moderate,Middle,No,North
+248,50,Male,Bachelor's,Student,5,High,High,Yes,South
+249,57,Female,Master's,Student,1,Moderate,Low,Yes,West
+250,56,Male,Master's,Unemployed,3,Low,Middle,No,Central
+251,35,Female,Master's,Employed,5,High,High,No,North
+252,57,Female,Bachelor's,Unemployed,4,Low,Low,No,South
+253,18,Other,Master's,Self-Employed,5,Low,Low,Yes,Central
+254,28,Female,High School,Employed,5,Low,Middle,No,East
+255,45,Male,PhD,Employed,4,High,High,No,South
+256,42,Male,PhD,Employed,5,Moderate,Middle,Yes,South
+257,40,Female,Diploma,Employed,3,High,High,No,West
+258,48,Other,Diploma,Unemployed,2,Low,Low,No,East
+259,47,Other,PhD,Student,5,Moderate,High,No,West
+260,59,Male,High School,Student,3,Low,High,No,East
+261,52,Other,Bachelor's,Self-Employed,2,Moderate,High,Yes,South
+262,24,Female,Bachelor's,Student,2,High,High,No,West
+263,33,Female,High School,Student,5,Moderate,High,No,Central
+264,43,Male,Bachelor's,Student,3,High,Middle,No,East
+265,19,Female,Master's,Student,5,Low,High,No,South
+266,18,Male,PhD,Self-Employed,4,Moderate,High,No,North
+267,29,Female,PhD,Unemployed,2,Low,Low,No,East
+268,22,Male,High School,Employed,5,Moderate,High,Yes,East
+269,54,Other,Bachelor's,Student,2,High,Low,Yes,Central
+270,49,Female,Diploma,Unemployed,3,Moderate,Middle,Yes,East
+271,26,Female,Diploma,Student,1,Moderate,Middle,No,East
+272,58,Male,Bachelor's,Student,5,High,High,No,Central
+273,52,Male,Diploma,Employed,5,High,Middle,No,Central
+274,36,Female,High School,Employed,2,High,High,Yes,West
+275,33,Male,High School,Employed,3,Moderate,Middle,No,South
+276,20,Female,Bachelor's,Student,4,Low,High,Yes,South
+277,37,Other,Diploma,Student,3,Moderate,High,No,West
+278,41,Male,High School,Student,5,Moderate,Low,No,South
+279,50,Female,High School,Employed,4,Low,Low,Yes,East
+280,41,Other,Master's,Self-Employed,3,High,Low,Yes,West
+281,28,Other,Master's,Unemployed,1,Moderate,Low,Yes,West
+282,25,Female,High School,Self-Employed,2,Low,High,Yes,South
+283,53,Male,Bachelor's,Student,3,High,Middle,Yes,North
+284,55,Female,PhD,Student,3,High,High,Yes,South
+285,57,Other,PhD,Self-Employed,1,Moderate,Low,No,North
+286,37,Female,High School,Student,5,High,Low,Yes,West
+287,52,Male,High School,Unemployed,2,High,Middle,No,North
+288,42,Other,High School,Student,3,Low,Low,No,East
+289,52,Female,Bachelor's,Unemployed,4,Low,High,No,Central
+290,42,Male,Master's,Self-Employed,3,High,High,No,North
+291,46,Other,High School,Self-Employed,2,Low,High,No,Central
+292,35,Male,High School,Student,3,High,High,Yes,East
+293,63,Other,Diploma,Unemployed,1,Moderate,High,Yes,Central
+294,35,Female,Bachelor's,Student,3,Low,Middle,Yes,East
+295,19,Male,High School,Employed,3,High,High,No,Central
+296,52,Other,Diploma,Employed,4,High,Low,Yes,Central
+297,33,Male,PhD,Employed,1,Low,Low,No,South
+298,58,Male,High School,Employed,1,Low,Low,No,North
+299,53,Female,High School,Student,3,Moderate,Low,No,Central
+300,50,Male,Diploma,Employed,4,High,Middle,No,West
+301,21,Other,Bachelor's,Unemployed,3,Moderate,Low,Yes,South
+302,50,Other,High School,Self-Employed,3,Moderate,Middle,Yes,North
+303,31,Other,PhD,Self-Employed,2,Moderate,Low,Yes,South
+304,38,Other,High School,Employed,2,Low,Middle,Yes,North
+305,37,Female,PhD,Employed,4,Moderate,Middle,Yes,East
+306,25,Male,Master's,Employed,5,Low,Middle,No,Central
+307,24,Female,Master's,Student,2,Low,Low,Yes,West
+308,20,Male,PhD,Self-Employed,5,Moderate,Middle,No,South
+309,34,Male,Bachelor's,Employed,1,Moderate,High,No,South
+310,50,Male,High School,Unemployed,2,High,High,No,South
+311,29,Female,High School,Employed,2,Moderate,Low,Yes,South
+312,39,Male,Master's,Self-Employed,4,High,High,No,Central
+313,39,Female,PhD,Employed,5,Moderate,High,No,North
+314,63,Other,High School,Self-Employed,2,Moderate,High,Yes,Central
+315,47,Other,High School,Employed,2,Moderate,Low,No,East
+316,55,Male,Bachelor's,Unemployed,4,Moderate,Low,No,Central
+317,55,Female,Diploma,Employed,4,High,High,No,Central
+318,62,Other,Master's,Unemployed,5,High,Low,Yes,East
+319,25,Female,Master's,Unemployed,1,Moderate,Middle,No,Central
+320,44,Female,Diploma,Employed,1,Moderate,High,No,North
+321,44,Male,High School,Unemployed,3,High,Low,Yes,West
+322,51,Other,Bachelor's,Student,2,Low,Low,Yes,East
+323,38,Male,Bachelor's,Employed,5,Low,High,No,South
+324,47,Male,Master's,Employed,2,Low,Low,Yes,North
+325,50,Other,Bachelor's,Unemployed,5,High,High,Yes,West
+326,45,Other,Diploma,Unemployed,5,High,Low,Yes,North
+327,64,Female,High School,Employed,5,Low,Middle,Yes,North
+328,50,Other,Diploma,Student,2,Low,High,Yes,South
+329,22,Female,PhD,Unemployed,4,Moderate,Middle,Yes,West
+330,36,Female,Master's,Unemployed,2,High,High,Yes,North
+331,21,Female,Bachelor's,Self-Employed,5,High,Low,No,South
+332,52,Other,PhD,Student,3,Low,Middle,Yes,East
+333,34,Male,Bachelor's,Student,1,Low,Low,Yes,South
+334,61,Female,High School,Employed,5,High,High,Yes,Central
+335,45,Male,High School,Student,3,Moderate,High,No,South
+336,47,Male,High School,Employed,4,Low,High,Yes,South
+337,46,Other,Bachelor's,Self-Employed,5,High,High,Yes,South
+338,63,Male,PhD,Student,3,High,High,No,North
+339,23,Male,High School,Unemployed,5,Moderate,Middle,Yes,West
+340,52,Other,PhD,Self-Employed,2,Moderate,High,No,South
+341,58,Female,Bachelor's,Employed,3,Low,Low,No,South
+342,54,Male,PhD,Self-Employed,2,Low,Middle,Yes,Central
+343,41,Other,Bachelor's,Employed,2,Low,Low,No,Central
+344,46,Male,Bachelor's,Self-Employed,3,High,High,Yes,East
+345,63,Male,Master's,Employed,1,Low,Low,Yes,East
+346,48,Female,Bachelor's,Student,3,High,Middle,No,Central
+347,52,Male,Bachelor's,Unemployed,1,Low,Middle,No,West
+348,50,Other,Diploma,Employed,5,Moderate,Middle,Yes,East
+349,38,Male,High School,Self-Employed,5,Moderate,Low,Yes,West
+350,49,Female,Master's,Employed,3,High,Middle,No,Central
+351,40,Female,Master's,Employed,5,Moderate,Low,Yes,East
+352,50,Other,Master's,Employed,4,High,High,Yes,South
+353,20,Female,Diploma,Self-Employed,2,High,High,Yes,Central
+354,35,Male,Bachelor's,Unemployed,2,Moderate,Low,No,East
+355,42,Female,High School,Student,1,High,Middle,Yes,West
+356,59,Other,PhD,Unemployed,5,Moderate,Low,Yes,West
+357,48,Female,Bachelor's,Employed,1,Low,Low,Yes,East
+358,20,Female,Diploma,Self-Employed,2,Low,Low,No,West
+359,57,Female,Bachelor's,Unemployed,2,Moderate,High,No,East
+360,63,Other,Bachelor's,Employed,5,Moderate,Low,No,East
+361,41,Female,Diploma,Student,4,Moderate,High,Yes,West
+362,49,Female,Master's,Student,4,Moderate,Low,No,North
+363,64,Male,Master's,Student,5,Low,High,Yes,South
+364,39,Other,High School,Employed,5,High,Low,No,Central
+365,40,Female,High School,Self-Employed,1,High,Low,Yes,South
+366,19,Other,Master's,Unemployed,5,Low,Middle,No,Central
+367,44,Female,PhD,Student,4,High,Middle,Yes,Central
+368,59,Female,Bachelor's,Employed,5,Low,Low,Yes,South
+369,19,Female,PhD,Employed,1,High,Low,No,East
+370,43,Male,Bachelor's,Unemployed,1,Moderate,Low,Yes,West
+371,34,Male,Master's,Student,1,Moderate,Low,No,North
+372,57,Male,High School,Employed,1,Moderate,Middle,No,North
+373,50,Other,High School,Unemployed,3,Low,High,Yes,North
+374,26,Other,PhD,Self-Employed,5,Low,Low,Yes,South
+375,60,Male,High School,Self-Employed,2,High,Middle,No,South
+376,56,Other,Master's,Self-Employed,5,High,Low,No,East
+377,46,Female,PhD,Student,3,High,Low,No,North
+378,59,Female,Bachelor's,Unemployed,1,Low,High,Yes,East
+379,43,Female,High School,Unemployed,3,High,Low,No,North
+380,52,Male,Diploma,Employed,4,Moderate,Low,Yes,South
+381,42,Other,High School,Employed,4,High,High,Yes,West
+382,41,Male,Bachelor's,Employed,5,Moderate,High,No,West
+383,30,Other,PhD,Unemployed,5,Low,High,No,West
+384,24,Female,Bachelor's,Employed,2,Moderate,High,Yes,West
+385,53,Male,Diploma,Unemployed,2,Moderate,Middle,Yes,Central
+386,62,Other,Master's,Unemployed,4,Moderate,Middle,Yes,North
+387,37,Other,High School,Self-Employed,1,Low,Middle,Yes,West
+388,18,Female,PhD,Employed,3,Low,Low,No,Central
+389,25,Male,Master's,Self-Employed,2,Low,High,Yes,Central
+390,63,Male,Bachelor's,Student,2,Low,High,No,Central
+391,33,Male,PhD,Student,1,High,Middle,No,East
+392,31,Female,Master's,Student,1,Low,Low,No,East
+393,29,Male,PhD,Unemployed,5,Moderate,Low,Yes,Central
+394,40,Female,Diploma,Unemployed,3,Low,Low,Yes,West
+395,32,Female,Diploma,Unemployed,1,High,Middle,No,North
+396,45,Female,High School,Employed,2,High,Low,No,South
+397,51,Other,High School,Self-Employed,2,High,Low,No,East
+398,19,Male,Diploma,Unemployed,4,Moderate,Low,No,West
+399,49,Male,PhD,Self-Employed,1,Low,High,Yes,West
+400,40,Female,Diploma,Self-Employed,5,Low,Middle,No,South
+401,39,Female,High School,Self-Employed,3,Low,High,Yes,South
+402,42,Male,Diploma,Employed,5,Moderate,High,Yes,West
+403,39,Female,Diploma,Employed,2,Moderate,Middle,Yes,South
+404,39,Male,PhD,Student,5,High,High,Yes,West
+405,59,Other,Master's,Student,2,High,Low,No,South
+406,23,Female,High School,Self-Employed,2,Low,Low,Yes,South
+407,32,Male,PhD,Student,2,Moderate,Low,No,West
+408,60,Female,Diploma,Self-Employed,2,Moderate,Low,Yes,Central
+409,54,Male,Diploma,Employed,2,Low,Middle,No,West
+410,50,Male,Master's,Employed,4,Low,High,No,North
+411,25,Female,High School,Employed,5,High,High,No,South
+412,61,Other,High School,Unemployed,4,High,Low,No,East
+413,61,Male,Bachelor's,Self-Employed,4,High,Low,No,South
+414,22,Male,High School,Employed,1,Low,High,Yes,North
+415,56,Male,Master's,Self-Employed,1,Low,Middle,No,East
+416,21,Other,Bachelor's,Student,1,High,High,Yes,East
+417,23,Other,Bachelor's,Student,3,High,Low,No,West
+418,62,Female,Diploma,Employed,1,Moderate,Low,Yes,Central
+419,49,Other,Diploma,Self-Employed,5,Moderate,Middle,Yes,West
+420,47,Female,High School,Employed,4,High,High,Yes,East
+421,64,Female,Bachelor's,Student,5,High,Middle,No,East
+422,52,Other,Diploma,Employed,1,Moderate,Middle,Yes,Central
+423,57,Female,Master's,Self-Employed,3,High,Low,No,South
+424,33,Other,Diploma,Student,3,Moderate,High,No,Central
+425,30,Female,Diploma,Unemployed,4,Moderate,Low,Yes,West
+426,59,Other,Bachelor's,Student,5,Moderate,High,Yes,South
+427,47,Other,Bachelor's,Unemployed,2,Low,Low,No,West
+428,36,Female,PhD,Employed,5,Low,Low,No,Central
+429,34,Male,Master's,Employed,1,High,High,No,South
+430,36,Female,Bachelor's,Self-Employed,2,Moderate,High,No,Central
+431,45,Other,High School,Unemployed,3,Low,Low,No,North
+432,43,Male,Master's,Employed,4,High,High,No,East
+433,54,Female,Master's,Unemployed,4,High,Low,Yes,South
+434,43,Female,Bachelor's,Employed,3,High,High,No,East
+435,40,Female,Master's,Student,1,High,Low,No,North
+436,26,Male,Bachelor's,Employed,3,High,Low,Yes,South
+437,29,Other,Diploma,Self-Employed,1,Moderate,Low,Yes,East
+438,18,Female,PhD,Student,2,High,Middle,Yes,East
+439,18,Female,Diploma,Self-Employed,3,Moderate,High,No,South
+440,64,Female,Bachelor's,Student,1,Low,Low,Yes,East
+441,51,Female,Bachelor's,Unemployed,2,High,Middle,Yes,East
+442,49,Female,Diploma,Self-Employed,3,Low,Low,No,South
+443,42,Other,High School,Employed,4,Moderate,Middle,No,East
+444,57,Other,High School,Unemployed,3,Moderate,Low,No,East
+445,62,Female,High School,Employed,5,Low,Low,No,West
+446,18,Male,Bachelor's,Student,3,High,Middle,Yes,West
+447,33,Other,Master's,Student,5,High,Middle,No,North
+448,56,Male,Bachelor's,Employed,2,Low,High,Yes,West
+449,22,Other,Master's,Employed,3,Low,High,No,West
+450,39,Female,Diploma,Unemployed,2,Low,Middle,Yes,North
+451,46,Other,PhD,Employed,2,High,High,No,East
+452,20,Female,Master's,Self-Employed,1,High,Middle,No,East
+453,29,Other,High School,Self-Employed,2,High,High,No,West
+454,43,Female,Bachelor's,Employed,2,Low,Low,Yes,North
+455,33,Female,Diploma,Self-Employed,3,High,High,Yes,East
+456,54,Female,High School,Employed,3,Moderate,Low,Yes,Central
+457,39,Female,Diploma,Unemployed,4,Low,Low,No,South
+458,46,Male,PhD,Self-Employed,1,High,High,Yes,South
+459,31,Female,Bachelor's,Self-Employed,2,Low,Middle,No,South
+460,45,Male,Bachelor's,Employed,1,Moderate,Low,No,West
+461,22,Male,PhD,Self-Employed,5,Moderate,Low,No,South
+462,64,Female,Bachelor's,Student,2,Low,High,Yes,South
+463,47,Male,Master's,Unemployed,1,Low,Middle,No,Central
+464,63,Other,Diploma,Unemployed,4,Moderate,Middle,Yes,East
+465,22,Female,High School,Self-Employed,4,Low,High,No,Central
+466,29,Male,PhD,Self-Employed,2,Moderate,Middle,No,West
+467,33,Female,Master's,Student,5,Moderate,High,No,South
+468,43,Female,High School,Student,4,High,High,Yes,East
+469,43,Female,High School,Self-Employed,4,Low,High,Yes,South
+470,38,Male,PhD,Self-Employed,5,Low,Low,No,South
+471,56,Other,Master's,Student,1,High,Low,Yes,West
+472,53,Other,High School,Employed,4,Moderate,Low,Yes,South
+473,50,Male,High School,Student,3,Low,High,No,North
+474,47,Female,Master's,Employed,4,High,Low,No,East
+475,54,Male,Bachelor's,Unemployed,1,High,Low,Yes,East
+476,40,Male,High School,Unemployed,1,Low,Low,No,North
+477,27,Male,Diploma,Student,2,High,High,No,West
+478,22,Female,Master's,Employed,3,Moderate,High,Yes,South
+479,53,Male,High School,Student,1,High,High,Yes,South
+480,51,Female,PhD,Student,5,Moderate,Low,No,East
+481,48,Male,Diploma,Employed,3,Moderate,Middle,Yes,West
+482,27,Other,High School,Student,3,Low,Low,Yes,West
+483,36,Male,Diploma,Unemployed,5,High,Low,No,West
+484,49,Male,Diploma,Self-Employed,4,Moderate,High,No,South
+485,18,Other,Bachelor's,Self-Employed,5,Moderate,High,No,West
+486,22,Female,Diploma,Student,5,High,Low,No,North
+487,62,Female,Bachelor's,Employed,4,Moderate,Low,Yes,Central
+488,21,Male,Master's,Employed,4,High,Middle,Yes,West
+489,33,Other,Bachelor's,Unemployed,4,Low,Middle,No,Central
+490,41,Female,PhD,Employed,4,Moderate,High,No,South
+491,33,Male,High School,Employed,4,Moderate,Middle,No,West
+492,19,Other,Master's,Unemployed,5,High,Middle,No,East
+493,45,Female,Master's,Student,2,High,High,Yes,South
+494,49,Female,PhD,Self-Employed,2,High,Middle,Yes,North
+495,44,Other,Bachelor's,Unemployed,1,High,Low,No,North
+496,37,Other,High School,Student,2,Moderate,Middle,No,Central
+497,41,Other,Bachelor's,Unemployed,2,Low,High,Yes,Central
+498,29,Other,Diploma,Student,5,Low,Low,Yes,East
+499,52,Male,Bachelor's,Unemployed,4,Low,Middle,Yes,East
+500,50,Other,Master's,Student,4,Low,Low,Yes,North
+501,50,Female,High School,Unemployed,5,High,Low,No,West
+502,60,Female,Bachelor's,Student,2,Moderate,Middle,Yes,North
+503,54,Male,High School,Unemployed,5,Moderate,Middle,Yes,North
+504,29,Female,High School,Self-Employed,1,Moderate,High,Yes,East
+505,20,Female,Diploma,Self-Employed,4,High,High,No,Central
+506,18,Other,Diploma,Employed,3,Moderate,Low,No,East
+507,50,Female,Master's,Student,1,High,High,Yes,East
+508,57,Male,PhD,Unemployed,1,Moderate,Low,Yes,East
+509,27,Other,High School,Student,5,Low,Low,No,North
+510,60,Other,PhD,Self-Employed,2,High,High,No,West
+511,61,Male,Master's,Student,4,Moderate,High,Yes,North
+512,46,Other,High School,Unemployed,3,Low,High,No,South
+513,30,Other,High School,Student,1,Low,Middle,Yes,East
+514,29,Male,PhD,Unemployed,3,Low,Low,No,East
+515,48,Other,Bachelor's,Self-Employed,2,High,Low,Yes,South
+516,63,Male,Diploma,Self-Employed,2,High,Low,Yes,East
+517,19,Male,Bachelor's,Self-Employed,3,Moderate,High,No,East
+518,52,Female,PhD,Employed,4,Low,High,Yes,East
+519,40,Female,Diploma,Self-Employed,2,Moderate,High,No,South
+520,34,Other,Bachelor's,Student,3,Moderate,High,No,North
+521,43,Other,Diploma,Employed,1,Low,High,No,East
+522,25,Male,High School,Self-Employed,3,Moderate,Middle,Yes,West
+523,46,Other,Bachelor's,Student,3,High,High,Yes,South
+524,43,Male,Diploma,Student,5,Moderate,Low,Yes,Central
+525,27,Male,Diploma,Student,2,Low,High,No,South
+526,43,Other,Diploma,Unemployed,4,High,Low,Yes,North
+527,51,Male,Bachelor's,Employed,4,High,High,Yes,South
+528,58,Female,Master's,Student,5,Moderate,High,Yes,Central
+529,24,Other,Bachelor's,Unemployed,4,Moderate,Low,Yes,West
+530,21,Female,PhD,Self-Employed,3,High,Low,No,Central
+531,62,Other,Bachelor's,Student,5,Moderate,Low,Yes,South
+532,28,Male,Diploma,Unemployed,1,Low,Low,No,Central
+533,46,Other,High School,Student,2,Moderate,Middle,No,South
+534,53,Female,Bachelor's,Employed,2,Moderate,Low,No,West
+535,42,Male,Bachelor's,Employed,2,High,High,No,West
+536,38,Other,Diploma,Self-Employed,3,Moderate,High,Yes,North
+537,53,Other,High School,Student,1,Moderate,Middle,Yes,West
+538,27,Other,High School,Unemployed,5,Moderate,Low,Yes,East
+539,54,Female,PhD,Self-Employed,5,Low,High,No,Central
+540,26,Female,Bachelor's,Student,2,Moderate,Middle,Yes,Central
+541,41,Other,High School,Self-Employed,1,Low,High,No,South
+542,52,Male,High School,Unemployed,1,Low,Middle,Yes,West
+543,52,Male,Master's,Self-Employed,1,Low,Middle,Yes,North
+544,53,Female,Master's,Self-Employed,4,Low,Low,Yes,North
+545,35,Male,High School,Self-Employed,4,High,Middle,No,North
+546,56,Female,PhD,Student,2,Low,High,Yes,East
+547,49,Other,High School,Unemployed,1,Moderate,High,No,West
+548,41,Female,Diploma,Employed,1,Low,Low,No,North
+549,40,Female,Bachelor's,Student,5,Moderate,Low,No,East
+550,49,Other,PhD,Employed,5,Low,Middle,Yes,Central
+551,54,Male,Diploma,Employed,2,High,Low,Yes,South
+552,29,Female,PhD,Student,1,Low,High,No,West
+553,30,Female,Diploma,Student,2,Low,High,No,West
+554,40,Other,Bachelor's,Unemployed,5,High,Low,No,Central
+555,42,Male,Bachelor's,Unemployed,5,Low,Low,No,West
+556,52,Female,Master's,Self-Employed,4,Moderate,Low,No,West
+557,58,Other,Diploma,Employed,2,Low,Middle,Yes,West
+558,47,Female,Master's,Unemployed,2,Low,Middle,Yes,West
+559,34,Other,Diploma,Self-Employed,1,Low,High,Yes,East
+560,37,Male,Master's,Unemployed,1,High,Middle,No,East
+561,42,Male,Bachelor's,Student,4,Low,Middle,No,South
+562,39,Male,PhD,Unemployed,3,Low,Middle,Yes,West
+563,30,Male,Master's,Employed,3,Moderate,Middle,Yes,Central
+564,36,Female,Diploma,Unemployed,3,Low,High,No,North
+565,53,Female,Diploma,Employed,2,Low,Low,No,South
+566,29,Male,Bachelor's,Student,2,Low,High,No,North
+567,58,Male,Diploma,Employed,5,Low,Middle,Yes,North
+568,36,Male,High School,Unemployed,2,Moderate,Low,No,West
+569,29,Female,PhD,Self-Employed,2,Moderate,Low,No,Central
+570,26,Male,Master's,Student,2,High,Low,No,North
+571,24,Male,PhD,Unemployed,4,Low,High,Yes,North
+572,45,Male,Bachelor's,Student,2,High,Low,No,South
+573,31,Other,Master's,Student,1,High,High,Yes,Central
+574,48,Male,Master's,Unemployed,1,Low,High,No,Central
+575,36,Other,High School,Unemployed,5,Moderate,Middle,No,North
+576,64,Other,Bachelor's,Self-Employed,4,Moderate,Middle,Yes,Central
+577,33,Male,Diploma,Student,1,Low,Low,No,South
+578,22,Other,High School,Student,4,Low,Low,Yes,South
+579,52,Male,High School,Unemployed,4,Moderate,Middle,No,South
+580,29,Female,PhD,Employed,5,Low,High,Yes,West
+581,42,Female,PhD,Unemployed,4,Low,High,No,North
+582,38,Female,PhD,Student,2,Low,Middle,Yes,Central
+583,53,Female,High School,Unemployed,4,Moderate,High,Yes,South
+584,40,Other,Diploma,Self-Employed,5,High,Middle,No,North
+585,33,Male,Master's,Employed,5,High,Middle,Yes,North
+586,56,Male,PhD,Unemployed,5,Low,Low,No,West
+587,62,Male,Diploma,Self-Employed,1,Moderate,Low,Yes,Central
+588,59,Female,Bachelor's,Student,2,Low,Middle,No,Central
+589,56,Female,PhD,Unemployed,1,Moderate,Low,No,South
+590,31,Male,Master's,Student,3,Low,Middle,No,South
+591,48,Female,Bachelor's,Self-Employed,2,Moderate,High,No,North
+592,22,Male,Bachelor's,Student,4,Moderate,High,Yes,Central
+593,52,Male,Master's,Self-Employed,5,High,High,No,Central
+594,40,Male,PhD,Self-Employed,3,Low,High,No,South
+595,46,Male,High School,Self-Employed,2,High,Middle,No,East
+596,60,Male,Master's,Unemployed,1,High,High,No,North
+597,28,Male,Master's,Student,5,Moderate,High,No,Central
+598,35,Male,Master's,Student,1,Low,High,Yes,West
+599,64,Female,Bachelor's,Employed,2,Moderate,High,No,West
+600,29,Male,Diploma,Employed,2,Moderate,Middle,Yes,East
+601,26,Male,High School,Employed,3,Moderate,High,Yes,South
+602,27,Female,PhD,Employed,4,Low,Low,No,South
+603,61,Female,PhD,Student,1,Low,Low,No,South
+604,34,Female,Diploma,Self-Employed,3,Moderate,Low,Yes,West
+605,55,Male,Master's,Self-Employed,5,Low,Low,Yes,South
+606,24,Other,High School,Unemployed,4,Moderate,Low,Yes,West
+607,63,Other,PhD,Self-Employed,3,Low,Low,No,East
+608,30,Female,PhD,Student,1,Low,Middle,Yes,North
+609,57,Other,Master's,Student,2,High,Low,Yes,Central
+610,59,Female,Diploma,Student,5,Moderate,High,No,East
+611,26,Male,High School,Unemployed,1,High,Low,Yes,West
+612,44,Other,Diploma,Employed,4,High,Middle,No,East
+613,19,Male,Diploma,Self-Employed,4,Moderate,Low,Yes,Central
+614,22,Other,High School,Student,2,Moderate,High,No,North
+615,46,Male,High School,Student,2,Low,High,Yes,Central
+616,54,Other,PhD,Employed,5,Moderate,Middle,No,West
+617,55,Male,PhD,Student,5,High,Middle,No,Central
+618,36,Male,High School,Self-Employed,2,High,Middle,Yes,East
+619,25,Other,Bachelor's,Unemployed,2,Moderate,Middle,No,South
+620,62,Male,PhD,Student,4,High,Low,Yes,East
+621,18,Male,Bachelor's,Self-Employed,2,Low,Low,No,West
+622,39,Male,High School,Student,3,High,High,No,North
+623,34,Other,PhD,Employed,1,Low,Middle,No,Central
+624,24,Other,Diploma,Student,2,High,Middle,No,North
+625,42,Male,High School,Student,5,Low,Low,No,West
+626,62,Male,Master's,Unemployed,3,Low,Middle,No,Central
+627,21,Other,Bachelor's,Employed,5,Moderate,High,No,East
+628,53,Other,High School,Employed,3,Low,High,Yes,East
+629,23,Male,High School,Unemployed,2,Moderate,Middle,Yes,West
+630,48,Male,PhD,Student,1,High,High,No,Central
+631,36,Male,PhD,Self-Employed,5,High,High,No,East
+632,61,Female,PhD,Employed,3,High,Low,No,West
+633,56,Other,Master's,Employed,4,Low,High,Yes,West
+634,44,Female,PhD,Student,2,High,Middle,No,North
+635,27,Other,High School,Student,1,High,Middle,Yes,East
+636,43,Other,PhD,Employed,2,Moderate,High,No,Central
+637,36,Other,Diploma,Student,4,Moderate,Middle,No,East
+638,56,Other,PhD,Self-Employed,1,High,Low,No,East
+639,20,Other,Master's,Employed,4,High,High,No,East
+640,62,Other,Diploma,Self-Employed,2,Low,High,No,West
+641,30,Other,High School,Self-Employed,3,Low,High,Yes,South
+642,45,Female,High School,Student,2,High,Middle,No,South
+643,37,Male,Bachelor's,Self-Employed,2,Moderate,Middle,Yes,North
+644,45,Male,Diploma,Student,2,High,High,Yes,East
+645,25,Female,Bachelor's,Unemployed,5,Low,Middle,No,South
+646,58,Female,Diploma,Student,4,Moderate,Middle,No,North
+647,56,Female,Diploma,Self-Employed,4,Moderate,High,No,West
+648,18,Female,Master's,Unemployed,4,Low,High,Yes,East
+649,20,Other,Bachelor's,Student,5,High,Middle,Yes,Central
+650,30,Male,Master's,Self-Employed,3,High,High,Yes,West
+651,45,Other,Diploma,Employed,2,High,High,No,North
+652,42,Male,High School,Employed,3,Low,High,Yes,West
+653,50,Male,Diploma,Student,5,Moderate,High,Yes,Central
+654,55,Female,Master's,Student,4,Low,Middle,Yes,West
+655,23,Other,Bachelor's,Employed,2,High,High,No,North
+656,61,Female,Bachelor's,Self-Employed,1,Low,Low,Yes,Central
+657,62,Other,Master's,Self-Employed,1,Moderate,High,Yes,Central
+658,49,Male,Bachelor's,Self-Employed,3,Low,Low,No,West
+659,62,Female,PhD,Student,4,High,High,No,Central
+660,64,Female,High School,Unemployed,1,Moderate,Low,No,West
+661,38,Male,High School,Unemployed,3,Low,Low,Yes,East
+662,33,Male,High School,Unemployed,5,Low,High,Yes,Central
+663,38,Male,Bachelor's,Unemployed,3,Moderate,High,Yes,West
+664,28,Female,Bachelor's,Unemployed,3,Moderate,High,No,East
+665,54,Other,Diploma,Student,3,High,Low,Yes,Central
+666,53,Female,Diploma,Student,2,Moderate,Middle,No,East
+667,52,Other,High School,Unemployed,3,High,Middle,No,Central
+668,36,Female,PhD,Student,3,Low,High,Yes,North
+669,37,Female,Diploma,Student,2,High,Middle,Yes,North
+670,35,Male,Diploma,Unemployed,2,Low,Middle,Yes,West
+671,64,Other,Bachelor's,Self-Employed,5,Moderate,High,No,South
+672,58,Female,PhD,Student,4,Low,Low,No,North
+673,31,Female,High School,Self-Employed,1,Moderate,High,Yes,South
+674,32,Male,Diploma,Student,1,Low,Middle,No,East
+675,48,Male,PhD,Student,3,Low,Low,Yes,East
+676,18,Other,PhD,Unemployed,5,Low,Middle,Yes,South
+677,20,Female,High School,Student,3,Low,Low,Yes,West
+678,33,Other,PhD,Employed,1,High,Middle,No,Central
+679,40,Female,PhD,Employed,2,Low,High,No,South
+680,28,Other,PhD,Unemployed,4,High,Middle,Yes,South
+681,29,Male,Diploma,Self-Employed,5,Moderate,Middle,Yes,South
+682,27,Female,High School,Self-Employed,2,Moderate,Low,No,South
+683,49,Other,PhD,Self-Employed,4,High,Middle,Yes,South
+684,33,Male,PhD,Employed,5,Moderate,High,No,West
+685,25,Male,Diploma,Self-Employed,5,Moderate,High,Yes,North
+686,55,Other,High School,Self-Employed,1,Low,High,No,Central
+687,29,Female,Bachelor's,Unemployed,2,Low,Low,Yes,North
+688,41,Female,Diploma,Self-Employed,5,Low,Low,No,South
+689,45,Male,High School,Employed,5,High,Middle,Yes,North
+690,25,Female,PhD,Employed,4,High,Middle,No,West
+691,45,Female,High School,Employed,1,Moderate,Middle,No,East
+692,53,Female,High School,Unemployed,3,Low,Low,No,North
+693,43,Male,High School,Unemployed,1,High,Low,No,Central
+694,25,Other,Bachelor's,Student,3,High,Middle,Yes,West
+695,45,Female,High School,Self-Employed,2,Low,Low,No,East
+696,45,Male,Bachelor's,Unemployed,2,High,Low,No,West
+697,54,Male,PhD,Employed,5,Low,High,Yes,South
+698,58,Other,Bachelor's,Employed,2,Moderate,High,No,East
+699,53,Female,PhD,Unemployed,5,Moderate,Middle,Yes,Central
+700,44,Female,PhD,Unemployed,1,Moderate,Middle,No,East
+701,34,Other,Bachelor's,Unemployed,2,Low,High,No,Central
+702,26,Other,Diploma,Student,1,High,Low,No,South
+703,50,Male,Master's,Employed,1,Moderate,Middle,No,Central
+704,37,Male,High School,Student,2,Moderate,Middle,No,West
+705,30,Other,Master's,Student,1,Moderate,Middle,No,North
+706,45,Female,High School,Self-Employed,2,High,Low,Yes,West
+707,46,Male,High School,Employed,2,High,High,Yes,West
+708,30,Male,PhD,Employed,2,Low,Middle,No,East
+709,63,Female,High School,Unemployed,3,Moderate,High,No,South
+710,52,Male,High School,Unemployed,1,High,High,Yes,North
+711,23,Female,Bachelor's,Self-Employed,4,Low,Low,Yes,Central
+712,35,Female,Master's,Student,2,Moderate,Low,No,East
+713,22,Female,Bachelor's,Unemployed,1,High,Low,No,South
+714,64,Other,High School,Unemployed,5,High,Low,No,North
+715,42,Other,PhD,Employed,2,Low,Low,No,West
+716,19,Other,Bachelor's,Employed,2,Moderate,Low,No,South
+717,27,Female,Bachelor's,Unemployed,4,Moderate,Middle,No,South
+718,47,Female,Diploma,Employed,3,High,High,Yes,South
+719,62,Other,High School,Self-Employed,3,Moderate,Low,No,West
+720,22,Male,PhD,Unemployed,2,Low,Middle,No,Central
+721,50,Female,Bachelor's,Employed,1,High,High,Yes,East
+722,18,Male,Bachelor's,Self-Employed,5,High,Low,Yes,Central
+723,35,Male,PhD,Employed,5,Low,Low,Yes,North
+724,49,Female,High School,Employed,1,High,Middle,Yes,East
+725,64,Female,Diploma,Employed,2,Moderate,High,No,North
+726,28,Male,Bachelor's,Unemployed,5,Moderate,Low,Yes,West
+727,38,Male,Diploma,Student,3,High,High,Yes,Central
+728,43,Other,Master's,Employed,1,Low,Middle,No,South
+729,42,Other,High School,Self-Employed,4,Low,Low,Yes,East
+730,39,Female,Master's,Unemployed,2,Moderate,High,Yes,South
+731,44,Other,Master's,Unemployed,1,Low,Middle,No,North
+732,30,Other,Master's,Self-Employed,5,High,Middle,No,South
+733,50,Other,High School,Employed,2,High,Low,No,South
+734,51,Other,High School,Student,3,Moderate,High,No,West
+735,58,Male,PhD,Employed,2,Moderate,Low,No,West
+736,52,Female,Diploma,Self-Employed,2,Moderate,Low,No,Central
+737,18,Other,Diploma,Unemployed,3,Low,High,No,North
+738,38,Male,PhD,Student,3,High,High,Yes,West
+739,23,Male,PhD,Unemployed,2,High,High,Yes,West
+740,45,Male,Master's,Self-Employed,3,High,Middle,No,Central
+741,34,Other,PhD,Employed,1,Moderate,Middle,Yes,East
+742,22,Other,Bachelor's,Student,3,High,High,No,Central
+743,48,Female,Diploma,Unemployed,3,Low,Middle,Yes,South
+744,22,Other,PhD,Unemployed,2,Low,Low,No,South
+745,55,Other,Bachelor's,Unemployed,1,High,High,Yes,West
+746,20,Male,Bachelor's,Employed,4,Moderate,Low,No,West
+747,40,Female,Bachelor's,Student,4,High,High,Yes,Central
+748,54,Other,Bachelor's,Employed,5,Low,Low,No,Central
+749,54,Other,Master's,Employed,3,Low,High,Yes,North
+750,27,Male,Bachelor's,Employed,3,Low,Low,Yes,South
+751,27,Male,Master's,Self-Employed,1,High,High,No,Central
+752,36,Other,Master's,Self-Employed,4,Low,High,Yes,East
+753,34,Female,Bachelor's,Self-Employed,5,Moderate,Middle,Yes,North
+754,38,Female,Diploma,Student,1,High,Low,Yes,Central
+755,31,Male,Bachelor's,Employed,3,High,Middle,Yes,West
+756,26,Male,Bachelor's,Employed,4,Low,Low,Yes,Central
+757,63,Other,Bachelor's,Self-Employed,5,Low,Middle,No,West
+758,18,Male,Diploma,Employed,2,Moderate,High,No,West
+759,62,Other,High School,Employed,4,High,Middle,Yes,South
+760,30,Female,High School,Unemployed,5,Low,Middle,No,South
+761,21,Female,Master's,Employed,1,Moderate,High,Yes,Central
+762,18,Other,Master's,Unemployed,2,Low,Middle,No,Central
+763,57,Male,Diploma,Employed,5,High,High,Yes,East
+764,49,Female,PhD,Student,5,Low,Low,Yes,North
+765,51,Male,High School,Self-Employed,3,High,Middle,Yes,North
+766,45,Female,Master's,Unemployed,4,Low,High,Yes,Central
+767,48,Other,High School,Self-Employed,3,High,High,No,South
+768,25,Other,Diploma,Unemployed,2,Moderate,Middle,No,East
+769,56,Other,Diploma,Unemployed,5,High,Low,No,North
+770,43,Female,PhD,Unemployed,3,Moderate,Middle,Yes,Central
+771,51,Male,PhD,Student,4,High,High,No,South
+772,20,Male,Diploma,Employed,2,Moderate,Low,No,South
+773,29,Male,Master's,Unemployed,1,Low,Middle,Yes,South
+774,18,Female,High School,Student,3,High,High,Yes,West
+775,61,Female,Bachelor's,Unemployed,2,Low,Middle,Yes,South
+776,22,Female,PhD,Employed,1,Moderate,Low,No,Central
+777,47,Female,Bachelor's,Unemployed,3,High,Low,No,East
+778,47,Female,Master's,Student,2,High,Low,Yes,Central
+779,34,Male,PhD,Employed,2,Low,Low,No,South
+780,64,Female,Bachelor's,Student,3,High,Low,Yes,East
+781,40,Female,Master's,Employed,2,High,Middle,No,North
+782,32,Male,High School,Employed,5,Low,Low,Yes,North
+783,54,Female,Master's,Self-Employed,3,High,Low,No,Central
+784,38,Male,PhD,Self-Employed,2,Low,High,No,East
+785,31,Male,Diploma,Self-Employed,1,Low,Low,No,Central
+786,19,Other,High School,Employed,1,Low,High,Yes,East
+787,28,Other,Bachelor's,Unemployed,5,Low,High,Yes,East
+788,56,Other,PhD,Student,3,Low,High,Yes,Central
+789,55,Other,Diploma,Student,2,Moderate,Middle,No,East
+790,51,Female,Master's,Student,2,Moderate,Middle,Yes,South
+791,55,Other,Diploma,Self-Employed,1,Low,High,No,East
+792,51,Male,PhD,Employed,5,Moderate,Middle,Yes,East
+793,35,Female,PhD,Self-Employed,1,Moderate,Low,Yes,Central
+794,47,Other,Diploma,Unemployed,1,High,Middle,No,North
+795,32,Male,Master's,Employed,5,Low,Low,No,West
+796,44,Female,Diploma,Student,3,Moderate,Low,Yes,East
+797,51,Female,PhD,Self-Employed,2,High,Middle,Yes,West
+798,55,Other,PhD,Self-Employed,3,High,Middle,No,East
+799,50,Female,Bachelor's,Unemployed,4,Low,High,No,Central
+800,41,Male,Bachelor's,Unemployed,4,Low,Middle,Yes,Central
+801,32,Female,High School,Self-Employed,4,High,Middle,No,East
+802,47,Male,PhD,Unemployed,5,Low,Middle,Yes,Central
+803,59,Female,Bachelor's,Student,1,Low,Low,Yes,Central
+804,34,Other,Diploma,Unemployed,3,High,Low,Yes,East
+805,22,Male,Master's,Unemployed,2,High,Low,No,North
+806,46,Female,Diploma,Self-Employed,4,Low,High,Yes,East
+807,21,Female,Master's,Self-Employed,3,Moderate,High,Yes,North
+808,27,Female,Bachelor's,Employed,4,Low,High,No,Central
+809,34,Male,High School,Employed,4,Moderate,Low,No,North
+810,27,Male,Diploma,Self-Employed,2,High,Middle,No,Central
+811,34,Male,Diploma,Unemployed,5,Moderate,High,Yes,North
+812,37,Other,Diploma,Unemployed,1,High,High,No,North
+813,41,Other,Master's,Employed,5,Low,Low,No,East
+814,22,Male,Bachelor's,Employed,3,Low,High,Yes,North
+815,51,Female,Diploma,Employed,5,High,Middle,Yes,Central
+816,23,Other,Diploma,Student,3,High,Low,Yes,East
+817,19,Male,High School,Student,3,High,Low,Yes,North
+818,30,Female,High School,Employed,1,Low,Middle,No,East
+819,60,Other,Bachelor's,Unemployed,2,Low,Middle,Yes,West
+820,60,Female,Bachelor's,Employed,1,Moderate,Middle,No,East
+821,28,Female,PhD,Student,5,High,High,Yes,West
+822,64,Female,High School,Unemployed,3,Moderate,Middle,Yes,West
+823,40,Female,PhD,Student,4,Low,Low,No,East
+824,33,Other,Master's,Unemployed,4,Moderate,Middle,No,Central
+825,48,Other,PhD,Student,3,Moderate,Low,No,Central
+826,28,Other,Diploma,Unemployed,1,Low,Low,Yes,Central
+827,33,Male,PhD,Unemployed,2,Low,High,Yes,South
+828,25,Other,Bachelor's,Unemployed,1,High,Middle,No,West
+829,21,Female,Master's,Unemployed,3,Moderate,High,No,East
+830,57,Other,Diploma,Self-Employed,3,Low,Middle,Yes,Central
+831,21,Female,PhD,Student,2,Low,Middle,No,Central
+832,42,Male,Master's,Student,5,Moderate,Middle,No,East
+833,20,Female,Master's,Self-Employed,5,Low,Middle,Yes,West
+834,49,Female,Diploma,Unemployed,2,High,Middle,No,East
+835,20,Female,PhD,Unemployed,5,High,Low,Yes,South
+836,44,Male,Master's,Student,4,Moderate,Low,Yes,South
+837,46,Other,Master's,Self-Employed,5,High,Middle,Yes,East
+838,49,Other,High School,Unemployed,5,Low,Low,No,West
+839,36,Male,Master's,Unemployed,5,Low,High,No,Central
+840,38,Female,High School,Unemployed,4,Low,High,No,South
+841,22,Other,PhD,Employed,5,Low,High,No,South
+842,35,Male,PhD,Self-Employed,4,Moderate,Middle,Yes,West
+843,45,Other,PhD,Unemployed,2,High,Middle,Yes,South
+844,59,Male,Bachelor's,Employed,1,High,Low,No,South
+845,39,Female,PhD,Self-Employed,2,Low,Low,No,West
+846,38,Other,Master's,Unemployed,1,Moderate,Low,No,East
+847,23,Male,Diploma,Student,2,Low,High,No,Central
+848,18,Other,High School,Employed,1,Low,High,Yes,Central
+849,22,Other,Bachelor's,Employed,1,Moderate,High,No,South
+850,58,Other,PhD,Unemployed,3,Moderate,High,Yes,Central
+851,29,Other,PhD,Unemployed,1,Low,Low,No,East
+852,43,Male,Diploma,Employed,1,High,Middle,No,South
+853,63,Female,Diploma,Student,3,Low,Middle,No,Central
+854,51,Male,Bachelor's,Student,5,High,High,Yes,North
+855,31,Male,High School,Self-Employed,5,High,Middle,No,North
+856,43,Male,PhD,Unemployed,3,Moderate,Middle,Yes,North
+857,62,Female,Bachelor's,Student,4,Moderate,Middle,Yes,North
+858,44,Other,Master's,Self-Employed,1,Low,High,No,North
+859,26,Other,Master's,Student,1,High,Low,Yes,South
+860,43,Other,Bachelor's,Unemployed,3,High,Low,Yes,West
+861,64,Female,PhD,Self-Employed,3,Low,Middle,Yes,West
+862,39,Other,Bachelor's,Self-Employed,4,Low,Low,No,South
+863,64,Female,PhD,Self-Employed,5,Low,Low,Yes,South
+864,47,Other,Diploma,Student,2,Moderate,High,Yes,East
+865,60,Other,Bachelor's,Unemployed,5,Low,High,No,West
+866,34,Male,PhD,Self-Employed,1,Low,Middle,No,North
+867,43,Female,Bachelor's,Employed,3,High,Middle,Yes,South
+868,53,Male,Bachelor's,Unemployed,4,Low,Middle,Yes,North
+869,18,Male,PhD,Employed,5,High,High,Yes,West
+870,25,Male,PhD,Employed,4,High,Low,Yes,Central
+871,52,Female,High School,Self-Employed,5,Moderate,High,No,Central
+872,32,Female,Bachelor's,Self-Employed,1,Low,High,No,South
+873,64,Other,Master's,Student,2,Low,Low,Yes,East
+874,39,Male,Bachelor's,Student,4,High,Low,No,North
+875,31,Other,Bachelor's,Student,4,Moderate,Middle,Yes,South
+876,43,Male,PhD,Unemployed,2,Moderate,Low,No,East
+877,45,Female,Bachelor's,Student,4,Low,Low,No,North
+878,40,Female,Bachelor's,Employed,4,High,Low,Yes,West
+879,31,Female,Master's,Student,5,Low,Low,Yes,Central
+880,41,Male,PhD,Self-Employed,5,Low,Middle,Yes,East
+881,19,Female,Bachelor's,Student,2,Low,Middle,Yes,North
+882,62,Male,Diploma,Unemployed,1,Low,Low,No,South
+883,43,Other,High School,Unemployed,4,High,Low,No,North
+884,31,Male,Master's,Employed,1,Moderate,Middle,Yes,South
+885,24,Other,Bachelor's,Unemployed,2,Low,Middle,No,Central
+886,20,Male,Diploma,Student,2,Low,Low,No,Central
+887,64,Other,Bachelor's,Self-Employed,5,Low,High,Yes,North
+888,40,Female,Bachelor's,Unemployed,4,Low,Middle,Yes,North
+889,63,Other,PhD,Employed,3,Moderate,Middle,No,South
+890,60,Female,PhD,Student,2,Moderate,Middle,Yes,South
+891,64,Female,PhD,Employed,4,Moderate,Low,Yes,East
+892,62,Other,Diploma,Unemployed,1,Moderate,Low,No,East
+893,35,Male,Bachelor's,Unemployed,5,Low,Middle,No,East
+894,55,Male,High School,Employed,1,High,Low,Yes,North
+895,52,Male,Master's,Student,2,Moderate,Low,No,East
+896,32,Male,PhD,Unemployed,2,Moderate,Middle,Yes,North
+897,42,Male,PhD,Self-Employed,1,Low,Low,Yes,Central
+898,54,Female,Bachelor's,Unemployed,2,Low,High,No,West
+899,45,Male,Bachelor's,Student,4,Low,Low,No,Central
+900,27,Female,Diploma,Unemployed,2,Low,Low,Yes,North
+901,56,Female,Diploma,Employed,5,High,Middle,Yes,North
+902,34,Female,PhD,Unemployed,4,High,Middle,Yes,West
+903,56,Other,Bachelor's,Unemployed,3,Moderate,High,No,South
+904,39,Other,High School,Student,2,High,Low,Yes,South
+905,43,Female,Master's,Employed,2,Moderate,High,No,South
+906,61,Other,Bachelor's,Student,5,Moderate,High,Yes,East
+907,42,Male,Bachelor's,Unemployed,5,High,Middle,No,South
+908,34,Male,Diploma,Self-Employed,1,Moderate,Low,Yes,East
+909,30,Female,Master's,Unemployed,1,Low,Middle,No,East
+910,37,Male,PhD,Student,1,Moderate,High,Yes,South
+911,42,Female,Bachelor's,Self-Employed,5,Low,High,Yes,South
+912,21,Female,PhD,Student,1,High,Middle,Yes,West
+913,27,Male,Bachelor's,Student,1,High,Middle,Yes,West
+914,20,Other,PhD,Employed,3,Moderate,Middle,No,East
+915,58,Male,Master's,Self-Employed,1,Low,Middle,No,West
+916,62,Male,Diploma,Unemployed,2,Moderate,Middle,No,East
+917,35,Female,Master's,Student,5,High,High,No,North
+918,64,Female,High School,Unemployed,4,Moderate,Middle,No,East
+919,53,Female,Diploma,Employed,3,Moderate,Low,Yes,East
+920,64,Female,Master's,Employed,5,Low,High,No,West
+921,39,Other,High School,Self-Employed,5,High,High,No,North
+922,51,Other,Bachelor's,Employed,2,Moderate,Low,No,Central
+923,64,Other,Bachelor's,Employed,1,Low,Low,No,Central
+924,25,Female,PhD,Unemployed,2,Moderate,High,Yes,Central
+925,57,Female,Diploma,Employed,1,Low,Middle,Yes,North
+926,61,Female,Bachelor's,Employed,1,Low,High,Yes,South
+927,36,Other,Diploma,Student,5,Moderate,High,Yes,North
+928,59,Female,Bachelor's,Employed,1,High,Low,No,West
+929,58,Male,PhD,Student,3,High,High,No,East
+930,54,Male,Master's,Employed,3,Low,Middle,Yes,East
+931,23,Female,PhD,Employed,3,High,Low,Yes,West
+932,43,Male,High School,Self-Employed,5,Low,High,No,West
+933,51,Male,Bachelor's,Self-Employed,2,High,High,No,East
+934,62,Other,High School,Student,4,Moderate,Middle,Yes,South
+935,23,Female,High School,Employed,1,High,High,Yes,South
+936,54,Female,Diploma,Unemployed,4,Low,High,Yes,South
+937,50,Other,Bachelor's,Self-Employed,2,Low,High,Yes,West
+938,39,Male,High School,Unemployed,2,High,High,No,East
+939,38,Male,Master's,Self-Employed,5,Moderate,Middle,No,East
+940,23,Female,High School,Self-Employed,3,Low,High,No,East
+941,23,Male,Master's,Employed,3,Low,High,Yes,North
+942,21,Other,Diploma,Self-Employed,2,Low,High,No,North
+943,47,Other,High School,Unemployed,5,Low,Low,No,Central
+944,28,Female,PhD,Self-Employed,5,Low,Middle,Yes,North
+945,47,Other,Diploma,Student,1,Moderate,Low,Yes,South
+946,48,Other,Master's,Employed,3,High,Low,Yes,South
+947,41,Female,Diploma,Employed,2,Moderate,Middle,Yes,South
+948,26,Other,High School,Student,4,Moderate,Low,Yes,South
+949,20,Other,Bachelor's,Student,3,Low,Low,Yes,Central
+950,48,Other,Bachelor's,Student,1,Moderate,Low,No,South
+951,57,Male,Master's,Self-Employed,5,Low,Middle,No,West
+952,54,Female,Master's,Employed,2,Moderate,High,No,West
+953,53,Female,Bachelor's,Student,3,Low,Middle,No,West
+954,41,Female,Master's,Self-Employed,4,Low,Middle,No,North
+955,48,Male,Diploma,Student,1,Moderate,Middle,No,East
+956,23,Male,PhD,Unemployed,1,Moderate,Low,Yes,Central
+957,19,Female,PhD,Unemployed,3,High,High,Yes,West
+958,37,Male,Diploma,Employed,4,High,Middle,Yes,West
+959,45,Female,PhD,Self-Employed,1,High,Middle,No,South
+960,28,Male,High School,Unemployed,2,Moderate,High,No,West
+961,21,Other,Diploma,Unemployed,1,Moderate,High,Yes,South
+962,32,Other,Master's,Self-Employed,4,Low,High,Yes,South
+963,23,Female,Diploma,Student,5,High,Low,Yes,East
+964,47,Male,Bachelor's,Self-Employed,5,Low,High,Yes,North
+965,55,Male,Master's,Student,3,Low,Low,Yes,South
+966,19,Other,Bachelor's,Unemployed,4,Low,Middle,No,South
+967,32,Other,Master's,Unemployed,1,Low,Low,No,East
+968,28,Male,PhD,Unemployed,1,High,High,No,South
+969,25,Male,Diploma,Employed,5,Low,Low,Yes,Central
+970,43,Male,High School,Employed,5,Moderate,High,No,North
+971,62,Male,Master's,Employed,2,Moderate,Low,Yes,Central
+972,61,Male,Master's,Self-Employed,5,Moderate,Middle,No,West
+973,22,Male,Bachelor's,Unemployed,2,High,Low,Yes,North
+974,23,Female,PhD,Unemployed,1,Low,Middle,Yes,West
+975,43,Male,Bachelor's,Self-Employed,2,High,High,No,South
+976,21,Other,Bachelor's,Employed,2,Low,Middle,No,East
+977,36,Female,PhD,Self-Employed,3,High,High,No,Central
+978,37,Male,High School,Employed,5,High,High,No,West
+979,50,Other,Bachelor's,Unemployed,2,Low,Middle,No,South
+980,37,Female,Bachelor's,Student,1,High,Middle,Yes,Central
+981,29,Other,Master's,Employed,4,Low,Low,No,Central
+982,64,Male,PhD,Unemployed,2,Moderate,Low,No,West
+983,18,Male,Diploma,Unemployed,5,Moderate,Middle,Yes,South
+984,43,Male,High School,Student,3,Moderate,Middle,No,East
+985,31,Male,High School,Unemployed,1,High,Middle,Yes,West
+986,55,Female,PhD,Unemployed,3,Moderate,Middle,No,Central
+987,54,Female,Master's,Employed,4,Low,High,No,Central
+988,28,Other,Master's,Employed,2,Moderate,Middle,Yes,North
+989,53,Male,PhD,Student,2,Moderate,Middle,No,South
+990,30,Other,Master's,Student,5,High,Middle,No,North
+991,60,Female,High School,Unemployed,2,Low,Middle,No,East
+992,20,Male,High School,Employed,1,High,High,No,West
+993,50,Male,Diploma,Student,4,High,Low,Yes,Central
+994,23,Female,PhD,Student,3,Low,Low,Yes,South
+995,27,Female,Bachelor's,Self-Employed,4,High,Low,No,Central
+996,22,Female,Bachelor's,Student,2,Low,Low,No,North
+997,40,Female,Diploma,Unemployed,3,Moderate,Low,Yes,North
+998,27,Female,Diploma,Employed,5,Low,High,Yes,West
+999,61,Male,Master's,Student,4,Low,Low,No,South
+1000,19,Female,Diploma,Self-Employed,3,Low,High,Yes,South
+1001,30,Male,Diploma,Employed,3,High,High,Yes,West
+1002,57,Male,Bachelor's,Student,3,Low,Low,Yes,North
+1003,19,Female,Master's,Self-Employed,1,Low,Low,Yes,North
+1004,37,Female,Diploma,Student,4,Low,Low,No,North
+1005,18,Male,Diploma,Employed,3,Moderate,Middle,Yes,Central
+1006,54,Female,Master's,Employed,4,Low,High,No,East
+1007,26,Female,PhD,Employed,3,High,Low,No,North
+1008,34,Female,Master's,Unemployed,5,Low,Middle,Yes,East
+1009,26,Other,Bachelor's,Student,5,Low,High,No,East
+1010,28,Male,PhD,Unemployed,5,Moderate,Middle,No,South
+1011,32,Other,High School,Employed,2,Low,Middle,Yes,West
+1012,41,Female,Master's,Self-Employed,3,High,Low,Yes,Central
+1013,55,Other,Bachelor's,Student,2,Low,High,Yes,East
+1014,52,Female,PhD,Unemployed,4,High,Middle,No,Central
+1015,47,Other,Master's,Student,2,Moderate,High,No,South
+1016,48,Female,Diploma,Self-Employed,4,Low,Low,No,North
+1017,22,Other,Master's,Unemployed,4,Moderate,High,No,East
+1018,61,Other,High School,Employed,4,Low,Middle,Yes,West
+1019,31,Other,Master's,Unemployed,2,High,Middle,No,South
+1020,28,Male,PhD,Student,3,Moderate,High,Yes,Central
+1021,26,Other,PhD,Student,2,Low,Middle,Yes,North
+1022,51,Male,Master's,Student,3,High,Middle,Yes,Central
+1023,29,Female,PhD,Student,3,Moderate,Middle,Yes,West
+1024,52,Other,Diploma,Employed,4,Low,Low,No,East
+1025,52,Female,Master's,Unemployed,2,Moderate,Low,Yes,West
+1026,18,Female,Diploma,Employed,3,Low,Middle,No,Central
+1027,57,Other,Diploma,Employed,5,High,High,Yes,Central
+1028,39,Male,Bachelor's,Employed,3,High,Low,Yes,West
+1029,46,Other,Master's,Student,5,Moderate,High,Yes,West
+1030,25,Female,PhD,Student,2,Moderate,Middle,No,West
+1031,28,Female,Diploma,Student,2,Low,Middle,Yes,North
+1032,58,Other,Bachelor's,Unemployed,2,High,High,Yes,Central
+1033,54,Male,Master's,Self-Employed,3,Low,Low,Yes,South
+1034,31,Male,Master's,Student,1,High,High,Yes,North
+1035,47,Female,High School,Unemployed,3,Moderate,High,No,North
+1036,52,Female,High School,Student,3,Low,Middle,No,North
+1037,38,Male,Diploma,Student,4,Low,Low,Yes,South
+1038,54,Other,High School,Employed,4,High,High,Yes,West
+1039,22,Female,Diploma,Employed,3,High,Low,No,Central
+1040,36,Male,PhD,Employed,5,High,Middle,No,East
+1041,31,Female,Diploma,Unemployed,4,Moderate,Low,No,East
+1042,43,Other,High School,Self-Employed,3,Low,Middle,Yes,Central
+1043,21,Male,PhD,Self-Employed,1,High,Low,No,South
+1044,42,Female,High School,Unemployed,5,Moderate,High,Yes,East
+1045,62,Other,Diploma,Student,2,High,Middle,No,North
+1046,59,Female,Bachelor's,Unemployed,3,Low,High,No,East
+1047,42,Other,Master's,Student,3,High,Middle,Yes,Central
+1048,35,Other,High School,Unemployed,5,Low,Low,No,North
+1049,57,Male,Diploma,Unemployed,4,Moderate,Low,Yes,East
+1050,25,Other,PhD,Unemployed,4,Moderate,Middle,No,Central
+1051,56,Female,High School,Self-Employed,4,High,Middle,Yes,South
+1052,57,Other,High School,Employed,2,Low,Middle,No,Central
+1053,31,Other,Master's,Unemployed,5,Low,Low,No,South
+1054,49,Male,Diploma,Self-Employed,5,Low,Middle,Yes,North
+1055,55,Other,Bachelor's,Employed,4,High,Middle,Yes,Central
+1056,50,Other,PhD,Employed,4,Low,High,Yes,West
+1057,40,Female,Diploma,Unemployed,1,Low,Middle,Yes,West
+1058,32,Male,PhD,Student,1,Low,High,No,West
+1059,50,Male,High School,Student,3,Low,High,No,West
+1060,42,Male,Master's,Student,3,High,High,No,West
+1061,34,Other,Master's,Unemployed,5,High,Low,No,South
+1062,50,Male,Bachelor's,Student,5,Low,High,No,Central
+1063,64,Other,Master's,Self-Employed,2,Low,Middle,No,North
+1064,19,Other,High School,Self-Employed,2,Moderate,Low,Yes,West
+1065,31,Female,Bachelor's,Self-Employed,1,Moderate,Low,No,West
+1066,57,Female,Diploma,Self-Employed,3,Low,Low,No,North
+1067,57,Female,Master's,Employed,1,Low,Low,Yes,North
+1068,56,Female,Bachelor's,Self-Employed,1,Moderate,Low,No,West
+1069,23,Female,High School,Student,3,Moderate,Low,No,South
+1070,23,Other,PhD,Unemployed,2,Low,Low,No,North
+1071,20,Other,PhD,Student,3,High,High,Yes,Central
+1072,24,Male,High School,Self-Employed,4,High,Middle,Yes,Central
+1073,25,Other,High School,Employed,4,Low,Middle,No,South
+1074,59,Other,PhD,Self-Employed,4,Low,High,Yes,East
+1075,32,Female,Bachelor's,Unemployed,5,Moderate,High,No,South
+1076,64,Other,PhD,Student,2,Moderate,Low,No,West
+1077,46,Female,High School,Unemployed,2,High,Low,No,East
+1078,50,Male,Master's,Unemployed,5,Low,High,Yes,West
+1079,47,Male,Diploma,Unemployed,1,Moderate,Low,No,Central
+1080,56,Other,Master's,Student,4,High,Middle,No,North
+1081,44,Male,Master's,Self-Employed,4,High,Middle,No,West
+1082,53,Other,High School,Unemployed,1,High,Low,No,Central
+1083,46,Male,PhD,Student,3,Moderate,Low,No,South
+1084,55,Female,Bachelor's,Employed,3,Moderate,Low,Yes,West
+1085,50,Female,Master's,Student,2,Low,Middle,No,Central
+1086,54,Female,PhD,Employed,5,Low,Low,Yes,North
+1087,44,Female,Bachelor's,Student,2,High,High,No,West
+1088,50,Other,Master's,Self-Employed,3,High,Low,Yes,Central
+1089,21,Male,Bachelor's,Unemployed,1,Moderate,High,No,West
+1090,39,Other,PhD,Self-Employed,2,Moderate,Low,No,North
+1091,19,Female,Diploma,Student,4,Low,Low,Yes,West
+1092,27,Other,PhD,Unemployed,4,Low,Middle,Yes,West
+1093,22,Male,High School,Employed,1,Low,High,No,Central
+1094,27,Other,Bachelor's,Student,3,Moderate,High,Yes,East
+1095,50,Male,Diploma,Unemployed,4,High,High,Yes,West
+1096,55,Other,Bachelor's,Employed,4,Low,Middle,No,East
+1097,30,Male,Bachelor's,Employed,5,Low,High,No,South
+1098,48,Male,Master's,Self-Employed,2,Moderate,Middle,No,West
+1099,64,Female,High School,Student,3,Low,Low,No,East
+1100,53,Male,Bachelor's,Employed,2,High,Low,No,South
+1101,62,Female,PhD,Unemployed,3,Moderate,High,Yes,Central
+1102,41,Female,PhD,Employed,4,Low,Low,No,West
+1103,32,Female,Master's,Employed,5,Low,Low,Yes,Central
+1104,46,Other,High School,Self-Employed,2,Moderate,High,No,South
+1105,25,Other,High School,Self-Employed,4,Moderate,Low,No,Central
+1106,22,Other,PhD,Unemployed,3,Low,High,Yes,Central
+1107,46,Other,Diploma,Self-Employed,2,High,High,No,North
+1108,64,Male,Master's,Employed,2,Moderate,Low,Yes,South
+1109,21,Male,Master's,Employed,4,High,Low,Yes,Central
+1110,29,Other,PhD,Self-Employed,2,Low,Low,Yes,East
+1111,62,Male,PhD,Employed,5,High,Low,No,South
+1112,19,Male,Diploma,Employed,5,Low,Low,No,North
+1113,44,Female,Diploma,Unemployed,4,Low,Middle,No,West
+1114,48,Female,High School,Self-Employed,3,Low,Low,No,Central
+1115,53,Female,Master's,Employed,4,Low,Middle,No,East
+1116,53,Female,Master's,Self-Employed,5,High,High,No,North
+1117,43,Male,PhD,Unemployed,1,Low,Low,Yes,South
+1118,60,Other,High School,Self-Employed,1,Low,Low,No,Central
+1119,44,Male,Master's,Employed,2,High,Low,No,North
+1120,22,Male,High School,Self-Employed,2,Moderate,High,No,North
+1121,37,Male,High School,Employed,1,High,Middle,No,East
+1122,28,Female,PhD,Employed,5,High,Middle,Yes,West
+1123,27,Female,High School,Employed,2,High,Low,Yes,West
+1124,57,Female,Diploma,Unemployed,4,Low,Low,Yes,West
+1125,55,Other,Diploma,Self-Employed,4,Low,Low,Yes,South
+1126,23,Male,Bachelor's,Unemployed,5,Low,Low,Yes,North
+1127,25,Other,PhD,Self-Employed,2,Moderate,High,No,South
+1128,40,Female,Bachelor's,Unemployed,4,Low,Low,Yes,North
+1129,64,Other,Diploma,Student,2,Moderate,High,Yes,East
+1130,43,Male,Bachelor's,Employed,2,Low,Low,No,East
+1131,63,Male,PhD,Employed,4,High,Middle,No,South
+1132,60,Female,PhD,Unemployed,1,Low,Middle,Yes,South
+1133,29,Female,High School,Student,4,Moderate,Low,No,East
+1134,43,Other,Master's,Employed,5,Moderate,Low,No,Central
+1135,30,Female,High School,Self-Employed,3,Low,High,Yes,West
+1136,57,Female,PhD,Unemployed,4,High,Low,No,West
+1137,35,Male,Diploma,Employed,2,Low,Low,Yes,East
+1138,42,Female,Diploma,Employed,2,Low,Low,Yes,West
+1139,50,Female,High School,Unemployed,4,Low,Middle,No,Central
+1140,64,Male,PhD,Unemployed,3,High,High,Yes,Central
+1141,57,Male,Diploma,Self-Employed,4,Moderate,Middle,Yes,North
+1142,60,Other,PhD,Self-Employed,3,High,High,No,South
+1143,29,Female,Diploma,Employed,3,Moderate,Middle,No,West
+1144,61,Male,PhD,Employed,5,Moderate,Low,No,Central
+1145,53,Other,Bachelor's,Unemployed,2,Moderate,Middle,No,South
+1146,21,Other,PhD,Employed,2,High,Middle,Yes,South
+1147,22,Female,PhD,Employed,3,Low,High,No,North
+1148,54,Female,High School,Unemployed,2,Low,High,No,South
+1149,25,Other,Bachelor's,Employed,1,Low,Middle,Yes,South
+1150,59,Male,Master's,Employed,3,Low,High,Yes,East
+1151,45,Other,High School,Student,2,Low,High,Yes,North
+1152,48,Female,Master's,Self-Employed,1,High,High,Yes,North
+1153,26,Male,Diploma,Unemployed,5,High,High,No,West
+1154,46,Male,Master's,Student,2,High,High,No,South
+1155,31,Other,PhD,Self-Employed,1,High,Middle,Yes,West
+1156,57,Female,Master's,Self-Employed,4,High,High,Yes,Central
+1157,58,Other,High School,Self-Employed,4,High,Low,Yes,South
+1158,39,Other,High School,Student,1,High,Middle,Yes,Central
+1159,28,Other,Master's,Student,3,Low,Middle,No,East
+1160,40,Male,High School,Self-Employed,3,Moderate,Middle,Yes,South
+1161,18,Male,High School,Employed,2,High,High,No,West
+1162,63,Female,Master's,Employed,4,Moderate,Low,Yes,West
+1163,54,Female,Bachelor's,Student,3,High,High,No,South
+1164,38,Other,Bachelor's,Student,3,High,Middle,No,West
+1165,43,Other,Diploma,Student,4,Low,Middle,No,South
+1166,63,Other,High School,Self-Employed,5,Moderate,Middle,No,North
+1167,53,Female,Master's,Employed,3,Low,Middle,Yes,West
+1168,40,Male,High School,Student,1,Low,High,No,South
+1169,18,Male,PhD,Student,2,Moderate,Low,Yes,South
+1170,57,Other,High School,Unemployed,3,Low,Low,No,West
+1171,32,Other,High School,Self-Employed,3,High,Middle,No,North
+1172,38,Other,Bachelor's,Unemployed,5,High,Low,Yes,West
+1173,64,Other,Master's,Employed,1,High,Middle,Yes,South
+1174,26,Female,High School,Unemployed,2,High,Middle,No,North
+1175,26,Male,Bachelor's,Unemployed,3,High,Low,No,Central
+1176,27,Other,Diploma,Unemployed,2,Low,Middle,Yes,East
+1177,43,Female,Bachelor's,Self-Employed,4,Low,Low,No,West
+1178,58,Other,Bachelor's,Employed,3,High,Middle,Yes,South
+1179,52,Other,Bachelor's,Unemployed,3,High,Low,Yes,North
+1180,42,Male,High School,Self-Employed,4,Low,Middle,Yes,North
+1181,43,Other,High School,Employed,5,Moderate,Low,No,Central
+1182,28,Male,Diploma,Student,3,Low,Middle,No,West
+1183,55,Male,PhD,Unemployed,2,Low,Middle,Yes,North
+1184,19,Male,PhD,Employed,1,Low,Middle,Yes,Central
+1185,24,Female,PhD,Unemployed,2,Low,Low,Yes,South
+1186,35,Female,Diploma,Student,5,Low,High,Yes,Central
+1187,44,Male,PhD,Employed,1,Moderate,Middle,No,West
+1188,51,Other,PhD,Self-Employed,2,High,Middle,Yes,Central
+1189,44,Male,Bachelor's,Employed,2,High,Low,No,North
+1190,34,Other,High School,Self-Employed,4,Moderate,Middle,Yes,North
+1191,60,Male,High School,Employed,5,High,Middle,No,East
+1192,61,Other,Bachelor's,Self-Employed,4,High,Middle,No,Central
+1193,41,Female,Bachelor's,Student,1,High,Middle,No,South
+1194,42,Other,Bachelor's,Student,4,Moderate,High,No,West
+1195,24,Male,High School,Student,5,Moderate,High,No,East
+1196,23,Female,PhD,Employed,3,High,Middle,Yes,Central
+1197,41,Other,Bachelor's,Student,3,High,Middle,Yes,South
+1198,50,Other,Diploma,Unemployed,1,High,Middle,No,East
+1199,46,Other,Bachelor's,Student,3,Low,High,Yes,North
+1200,60,Other,Master's,Self-Employed,4,Low,High,Yes,West
+1201,39,Other,Bachelor's,Self-Employed,1,Low,Low,Yes,Central
+1202,43,Female,High School,Self-Employed,5,Moderate,Low,Yes,South
+1203,45,Female,Bachelor's,Employed,1,High,Middle,Yes,North
+1204,38,Female,Master's,Unemployed,1,Moderate,Middle,Yes,East
+1205,24,Female,Diploma,Student,2,Moderate,High,Yes,West
+1206,34,Male,PhD,Unemployed,2,Moderate,Middle,No,East
+1207,37,Female,Bachelor's,Unemployed,1,High,Middle,Yes,East
+1208,58,Other,Master's,Self-Employed,3,Low,High,Yes,South
+1209,37,Other,Master's,Self-Employed,2,High,High,Yes,North
+1210,39,Female,Diploma,Self-Employed,5,High,High,No,Central
+1211,45,Other,High School,Employed,4,Moderate,High,No,South
+1212,57,Female,Bachelor's,Unemployed,2,Moderate,Low,Yes,West
+1213,24,Other,Master's,Unemployed,1,Moderate,High,No,East
+1214,18,Male,Diploma,Employed,3,Low,High,No,West
+1215,49,Male,PhD,Employed,4,Low,Middle,Yes,South
+1216,30,Female,Master's,Employed,2,Low,Middle,No,South
+1217,47,Female,Diploma,Unemployed,3,High,Middle,Yes,Central
+1218,40,Female,High School,Unemployed,3,Moderate,Low,No,East
+1219,36,Other,High School,Self-Employed,3,High,High,Yes,South
+1220,49,Female,Master's,Self-Employed,1,Low,High,No,West
+1221,47,Male,Master's,Unemployed,5,Moderate,Low,Yes,Central
+1222,46,Other,Bachelor's,Self-Employed,3,Low,High,Yes,West
+1223,62,Female,Diploma,Employed,4,Moderate,Middle,No,East
+1224,46,Other,Master's,Student,2,Moderate,Low,Yes,Central
+1225,47,Other,Bachelor's,Self-Employed,4,High,High,Yes,Central
+1226,33,Female,Bachelor's,Unemployed,1,High,Low,No,Central
+1227,57,Other,Master's,Self-Employed,1,Low,Low,Yes,North
+1228,36,Male,High School,Self-Employed,4,High,High,Yes,Central
+1229,35,Male,Diploma,Self-Employed,5,High,Middle,No,West
+1230,18,Other,Diploma,Student,1,High,High,Yes,West
+1231,31,Female,High School,Employed,1,Moderate,High,No,East
+1232,64,Other,Master's,Unemployed,4,High,Middle,Yes,South
+1233,19,Male,Diploma,Student,1,Low,High,No,South
+1234,45,Other,Master's,Unemployed,5,Moderate,High,No,North
+1235,47,Other,Master's,Unemployed,5,Moderate,High,Yes,Central
+1236,55,Male,Bachelor's,Unemployed,5,High,Low,No,North
+1237,21,Other,High School,Student,2,Moderate,Low,Yes,East
+1238,18,Other,Master's,Employed,5,Low,Low,Yes,East
+1239,25,Female,PhD,Unemployed,5,Low,High,No,South
+1240,46,Female,High School,Employed,2,Moderate,Middle,Yes,East
+1241,56,Male,Diploma,Employed,3,High,Low,Yes,Central
+1242,20,Male,Bachelor's,Self-Employed,1,High,Middle,No,West
+1243,49,Male,Diploma,Student,5,Moderate,High,Yes,East
+1244,27,Female,Diploma,Student,1,Low,Low,Yes,North
+1245,27,Male,High School,Self-Employed,4,Moderate,High,No,Central
+1246,36,Male,Diploma,Self-Employed,1,High,Middle,Yes,East
+1247,63,Male,Master's,Employed,2,High,Low,Yes,East
+1248,51,Female,Diploma,Unemployed,1,Moderate,Low,No,Central
+1249,50,Other,Bachelor's,Student,1,Low,Low,Yes,East
+1250,40,Male,Bachelor's,Unemployed,1,Moderate,Low,Yes,West
+1251,45,Other,PhD,Unemployed,3,Low,Middle,No,South
+1252,49,Male,Bachelor's,Self-Employed,3,Low,Low,Yes,Central
+1253,24,Other,Diploma,Unemployed,4,Moderate,High,Yes,North
+1254,46,Female,Bachelor's,Employed,2,Moderate,Low,No,East
+1255,25,Female,High School,Self-Employed,1,Low,Middle,No,South
+1256,18,Male,Bachelor's,Unemployed,1,Low,Low,Yes,North
+1257,20,Other,Master's,Self-Employed,1,Low,Middle,Yes,North
+1258,41,Female,High School,Employed,1,Low,Middle,No,West
+1259,40,Male,PhD,Employed,3,High,High,Yes,South
+1260,25,Male,Master's,Unemployed,4,Moderate,Low,Yes,Central
+1261,64,Female,Diploma,Self-Employed,5,Low,Low,Yes,South
+1262,54,Female,Diploma,Unemployed,2,Moderate,Low,No,South
+1263,20,Male,Diploma,Unemployed,1,Low,High,Yes,North
+1264,50,Other,Master's,Self-Employed,4,Moderate,High,Yes,West
+1265,45,Other,Master's,Unemployed,5,Moderate,Middle,No,West
+1266,64,Other,Master's,Employed,4,Low,Middle,No,South
+1267,25,Male,High School,Self-Employed,3,Low,Middle,No,South
+1268,51,Female,High School,Self-Employed,5,Moderate,High,Yes,East
+1269,52,Male,Diploma,Self-Employed,4,Moderate,High,Yes,North
+1270,49,Female,Bachelor's,Self-Employed,3,Moderate,High,No,Central
+1271,41,Other,Diploma,Unemployed,4,High,Middle,Yes,Central
+1272,31,Other,PhD,Unemployed,4,Low,High,Yes,West
+1273,49,Female,High School,Employed,5,High,Middle,Yes,North
+1274,63,Female,Master's,Student,3,High,Middle,Yes,West
+1275,60,Male,High School,Student,1,Low,Low,No,Central
+1276,33,Other,Master's,Employed,2,Low,Low,No,South
+1277,21,Male,PhD,Student,5,High,Low,Yes,North
+1278,54,Male,PhD,Employed,3,Low,Middle,No,North
+1279,38,Male,High School,Unemployed,4,Moderate,Low,Yes,East
+1280,31,Other,Master's,Self-Employed,3,Moderate,Low,Yes,South
+1281,48,Male,PhD,Self-Employed,2,High,Low,No,South
+1282,35,Male,Diploma,Unemployed,2,High,High,No,West
+1283,24,Male,Diploma,Self-Employed,1,Low,Middle,Yes,North
+1284,27,Male,Master's,Self-Employed,1,Low,Low,Yes,West
+1285,24,Male,High School,Student,2,High,High,Yes,South
+1286,50,Male,PhD,Unemployed,5,High,High,Yes,East
+1287,40,Other,High School,Student,5,Moderate,High,No,North
+1288,38,Male,Diploma,Student,4,Moderate,Low,No,South
+1289,36,Female,PhD,Self-Employed,1,Low,High,Yes,East
+1290,36,Male,High School,Self-Employed,4,Moderate,Middle,Yes,Central
+1291,53,Male,Bachelor's,Unemployed,1,Low,High,No,South
+1292,46,Other,Master's,Self-Employed,2,Low,High,Yes,Central
+1293,35,Other,Master's,Self-Employed,5,Low,High,No,West
+1294,19,Female,Bachelor's,Unemployed,5,Moderate,High,Yes,Central
+1295,18,Female,Diploma,Self-Employed,2,High,Middle,No,South
+1296,64,Other,PhD,Student,4,High,Low,Yes,Central
+1297,22,Other,Master's,Unemployed,4,Moderate,Middle,Yes,North
+1298,37,Male,Bachelor's,Self-Employed,3,High,Middle,Yes,South
+1299,28,Other,Bachelor's,Employed,1,Low,Low,No,East
+1300,59,Female,Diploma,Unemployed,4,High,High,No,Central
+1301,19,Male,Diploma,Unemployed,2,Moderate,Low,Yes,North
+1302,20,Female,High School,Employed,4,High,Low,Yes,West
+1303,40,Male,Master's,Self-Employed,5,Low,Middle,Yes,West
+1304,29,Other,High School,Self-Employed,1,Low,Low,Yes,Central
+1305,37,Female,Bachelor's,Unemployed,3,Moderate,High,No,West
+1306,22,Male,PhD,Unemployed,1,Moderate,Middle,No,East
+1307,54,Male,PhD,Self-Employed,5,Moderate,High,No,South
+1308,55,Other,Diploma,Self-Employed,5,Low,Middle,Yes,North
+1309,47,Other,PhD,Student,5,High,High,Yes,Central
+1310,26,Other,PhD,Unemployed,5,High,Low,No,West
+1311,51,Female,PhD,Unemployed,2,Moderate,Low,Yes,South
+1312,61,Male,Bachelor's,Employed,3,High,Low,No,East
+1313,52,Other,PhD,Student,5,High,High,No,West
+1314,39,Female,PhD,Self-Employed,5,Moderate,Middle,No,West
+1315,61,Female,PhD,Student,4,Moderate,Middle,No,North
+1316,41,Female,High School,Self-Employed,3,Low,Middle,Yes,East
+1317,34,Other,Bachelor's,Self-Employed,1,Low,Low,No,East
+1318,27,Other,Diploma,Student,3,Low,High,Yes,Central
+1319,47,Male,High School,Unemployed,3,Low,Middle,No,North
+1320,63,Male,Master's,Self-Employed,3,High,High,No,Central
+1321,40,Other,Bachelor's,Student,5,High,Middle,No,North
+1322,49,Female,Bachelor's,Employed,5,Low,Low,No,East
+1323,34,Female,Master's,Student,2,Low,High,Yes,North
+1324,34,Female,Master's,Employed,1,Moderate,Middle,Yes,North
+1325,31,Male,Master's,Self-Employed,4,High,Middle,Yes,North
+1326,26,Female,Diploma,Student,3,High,Middle,Yes,South
+1327,57,Male,PhD,Student,1,Low,Middle,No,South
+1328,19,Male,Bachelor's,Employed,1,High,Low,Yes,East
+1329,62,Female,PhD,Student,2,Moderate,Middle,Yes,North
+1330,42,Female,PhD,Student,4,Moderate,Middle,No,East
+1331,56,Other,Master's,Self-Employed,3,High,Low,Yes,South
+1332,26,Other,Diploma,Student,4,Low,Middle,Yes,North
+1333,39,Female,High School,Unemployed,2,High,High,Yes,Central
+1334,60,Male,Diploma,Employed,5,Moderate,High,Yes,South
+1335,63,Male,PhD,Student,1,Low,Middle,No,South
+1336,21,Male,Diploma,Employed,3,High,Low,No,South
+1337,43,Male,Master's,Employed,5,Low,Low,Yes,North
+1338,46,Male,High School,Employed,2,Low,Low,No,West
+1339,62,Other,Master's,Student,4,Moderate,Middle,Yes,Central
+1340,51,Female,High School,Student,1,Low,Middle,Yes,Central
+1341,40,Other,PhD,Employed,3,High,High,Yes,East
+1342,54,Male,High School,Unemployed,5,Low,Low,No,North
+1343,28,Male,High School,Employed,5,Low,Middle,No,South
+1344,23,Male,High School,Unemployed,1,High,Middle,No,West
+1345,35,Male,Diploma,Employed,4,Moderate,Middle,No,North
+1346,38,Female,Diploma,Self-Employed,2,Moderate,Low,No,North
+1347,59,Male,PhD,Employed,4,High,Low,No,West
+1348,53,Female,High School,Employed,4,High,High,Yes,South
+1349,58,Male,Bachelor's,Student,4,Moderate,Low,No,North
+1350,55,Female,PhD,Unemployed,1,Low,Middle,Yes,Central
+1351,51,Other,High School,Self-Employed,1,High,High,Yes,Central
+1352,34,Male,High School,Unemployed,2,Low,Low,No,West
+1353,54,Female,Diploma,Self-Employed,4,High,Low,Yes,South
+1354,42,Other,PhD,Employed,1,Moderate,Low,Yes,West
+1355,55,Male,High School,Student,2,Low,Low,Yes,North
+1356,29,Male,High School,Student,2,Low,Middle,No,Central
+1357,40,Male,PhD,Unemployed,4,High,Low,No,East
+1358,59,Female,Bachelor's,Student,3,Low,Middle,Yes,West
+1359,39,Female,PhD,Unemployed,4,High,Middle,No,East
+1360,38,Other,PhD,Unemployed,3,Moderate,Middle,Yes,East
+1361,44,Female,Bachelor's,Self-Employed,2,Low,High,No,Central
+1362,48,Female,PhD,Unemployed,1,High,Middle,Yes,West
+1363,23,Male,High School,Self-Employed,5,Low,Low,Yes,East
+1364,44,Male,PhD,Student,2,High,High,No,North
+1365,57,Male,Bachelor's,Unemployed,1,High,Low,No,South
+1366,51,Male,Master's,Unemployed,2,High,Middle,No,South
+1367,29,Male,PhD,Employed,4,Moderate,Low,No,Central
+1368,62,Male,Diploma,Unemployed,3,Low,High,No,West
+1369,24,Male,High School,Unemployed,2,Moderate,High,Yes,West
+1370,27,Other,High School,Employed,1,High,Low,Yes,South
+1371,62,Other,Diploma,Employed,4,High,Low,Yes,North
+1372,34,Other,Diploma,Student,5,Moderate,Low,No,South
+1373,43,Other,PhD,Unemployed,4,Moderate,High,No,South
+1374,38,Male,Diploma,Student,3,Low,Middle,Yes,West
+1375,45,Other,Master's,Student,4,High,Low,Yes,East
+1376,63,Male,Bachelor's,Employed,5,Moderate,Middle,Yes,North
+1377,19,Other,Diploma,Self-Employed,1,High,High,Yes,West
+1378,60,Female,Diploma,Student,2,High,Low,No,South
+1379,18,Other,Master's,Self-Employed,3,Low,Low,Yes,East
+1380,53,Other,High School,Unemployed,5,Low,High,No,North
+1381,43,Male,High School,Employed,3,Low,Low,Yes,Central
+1382,46,Other,PhD,Unemployed,4,Moderate,Middle,No,North
+1383,38,Female,Master's,Unemployed,3,High,High,No,North
+1384,28,Male,Bachelor's,Employed,5,Moderate,High,No,South
+1385,57,Male,Bachelor's,Unemployed,2,Moderate,Low,No,South
+1386,28,Other,Master's,Employed,2,Low,High,Yes,Central
+1387,53,Male,Bachelor's,Self-Employed,3,High,Low,Yes,Central
+1388,56,Male,High School,Unemployed,1,High,Low,Yes,Central
+1389,57,Male,Bachelor's,Employed,3,Low,High,No,West
+1390,52,Male,Bachelor's,Student,4,High,Low,Yes,West
+1391,51,Male,Master's,Unemployed,2,Low,Middle,Yes,South
+1392,64,Male,Master's,Self-Employed,2,Moderate,Middle,Yes,South
+1393,41,Female,Bachelor's,Employed,2,Moderate,Low,No,Central
+1394,39,Other,Diploma,Unemployed,1,Low,Middle,No,West
+1395,22,Female,Master's,Unemployed,1,Moderate,Low,No,East
+1396,50,Male,PhD,Unemployed,5,Moderate,Middle,Yes,West
+1397,53,Male,PhD,Self-Employed,3,Low,High,Yes,South
+1398,64,Other,High School,Employed,3,Moderate,Low,Yes,West
+1399,37,Female,Bachelor's,Student,4,High,Low,No,South
+1400,36,Other,Diploma,Student,2,Moderate,Low,Yes,Central
+1401,52,Female,High School,Student,1,Low,Low,No,Central
+1402,60,Male,Bachelor's,Employed,4,High,Low,No,Central
+1403,34,Other,Master's,Student,4,High,Low,No,East
+1404,62,Other,PhD,Self-Employed,1,Moderate,High,No,East
+1405,60,Male,Diploma,Employed,3,High,High,Yes,South
+1406,51,Other,PhD,Unemployed,2,Low,Middle,Yes,North
+1407,26,Female,Master's,Self-Employed,3,High,Low,No,East
+1408,43,Female,Bachelor's,Unemployed,4,Moderate,Middle,Yes,South
+1409,19,Female,Master's,Student,2,Moderate,Middle,No,West
+1410,26,Female,Master's,Self-Employed,5,High,High,Yes,Central
+1411,26,Male,PhD,Employed,4,Low,Middle,Yes,Central
+1412,57,Other,Diploma,Self-Employed,3,Low,High,No,Central
+1413,34,Female,Master's,Unemployed,3,Moderate,Middle,No,South
+1414,18,Male,PhD,Employed,3,Moderate,Low,No,Central
+1415,42,Other,Diploma,Self-Employed,1,Low,Middle,No,East
+1416,60,Other,Bachelor's,Self-Employed,4,High,High,Yes,West
+1417,57,Male,Bachelor's,Self-Employed,2,High,High,No,Central
+1418,59,Male,High School,Self-Employed,3,High,High,Yes,South
+1419,42,Female,PhD,Employed,3,High,Middle,No,West
+1420,56,Other,Diploma,Unemployed,1,Low,Middle,Yes,Central
+1421,52,Other,Master's,Self-Employed,2,Moderate,High,No,North
+1422,20,Male,Bachelor's,Employed,4,Moderate,Low,Yes,Central
+1423,54,Other,Diploma,Unemployed,5,High,Low,Yes,East
+1424,61,Female,PhD,Self-Employed,1,Low,Middle,Yes,West
+1425,61,Other,High School,Unemployed,4,Low,Middle,No,East
+1426,47,Male,Bachelor's,Unemployed,5,High,High,No,North
+1427,55,Male,Diploma,Employed,3,High,Middle,No,North
+1428,51,Female,Diploma,Unemployed,3,High,Middle,No,East
+1429,29,Female,Diploma,Employed,2,Moderate,High,Yes,West
+1430,36,Other,PhD,Self-Employed,5,High,High,Yes,North
+1431,54,Other,PhD,Unemployed,3,Moderate,Middle,Yes,North
+1432,61,Male,PhD,Unemployed,3,Low,Low,No,Central
+1433,34,Female,Master's,Student,2,Low,Middle,Yes,South
+1434,27,Female,Diploma,Self-Employed,4,Moderate,Low,Yes,North
+1435,64,Female,Bachelor's,Self-Employed,3,Moderate,Low,No,West
+1436,29,Other,PhD,Student,1,Moderate,Low,No,West
+1437,33,Female,PhD,Student,1,Moderate,High,Yes,Central
+1438,41,Male,Diploma,Employed,4,High,High,No,West
+1439,36,Male,PhD,Employed,5,Low,High,No,Central
+1440,25,Other,Master's,Unemployed,2,High,Middle,No,North
+1441,48,Other,Master's,Unemployed,1,Moderate,High,No,North
+1442,38,Female,PhD,Unemployed,1,High,High,Yes,North
+1443,34,Other,Diploma,Unemployed,4,High,Middle,Yes,North
+1444,40,Male,Diploma,Employed,5,Low,Middle,Yes,South
+1445,54,Female,Diploma,Self-Employed,5,High,Low,Yes,South
+1446,33,Male,High School,Unemployed,4,Low,Middle,Yes,North
+1447,23,Female,PhD,Self-Employed,1,Moderate,Middle,No,West
+1448,25,Other,Diploma,Unemployed,2,High,High,Yes,Central
+1449,42,Female,Master's,Student,1,Moderate,Low,Yes,East
+1450,35,Female,Bachelor's,Unemployed,5,Low,Low,No,Central
+1451,42,Male,Bachelor's,Unemployed,1,Moderate,Middle,No,East
+1452,29,Male,Diploma,Unemployed,2,Moderate,High,No,East
+1453,32,Female,Bachelor's,Employed,3,Low,High,Yes,North
+1454,43,Other,Bachelor's,Student,1,Moderate,High,No,East
+1455,58,Other,High School,Unemployed,4,Moderate,High,No,North
+1456,62,Male,Master's,Unemployed,3,Moderate,Middle,No,South
+1457,43,Other,Master's,Self-Employed,4,High,High,Yes,West
+1458,64,Male,High School,Student,4,Moderate,Low,No,East
+1459,49,Other,High School,Unemployed,4,Low,Low,No,West
+1460,27,Female,Bachelor's,Self-Employed,1,High,Middle,Yes,North
+1461,33,Male,PhD,Self-Employed,5,High,High,No,East
+1462,24,Male,Bachelor's,Employed,3,Low,High,Yes,Central
+1463,34,Female,High School,Self-Employed,2,Moderate,High,Yes,South
+1464,40,Male,Master's,Unemployed,5,High,High,No,South
+1465,43,Other,Bachelor's,Employed,1,High,Middle,Yes,East
+1466,38,Other,PhD,Employed,4,High,High,No,South
+1467,39,Male,Bachelor's,Unemployed,2,Moderate,Middle,No,Central
+1468,24,Other,Diploma,Student,3,High,High,No,West
+1469,31,Male,Bachelor's,Self-Employed,5,Low,High,No,Central
+1470,32,Female,High School,Employed,5,Moderate,Low,Yes,South
+1471,24,Male,Master's,Student,2,Low,Middle,No,West
+1472,26,Female,Master's,Unemployed,1,Low,Low,No,Central
+1473,25,Other,High School,Self-Employed,3,High,Middle,No,North
+1474,40,Female,Diploma,Self-Employed,2,High,High,Yes,North
+1475,46,Other,High School,Employed,4,High,High,Yes,West
+1476,35,Male,Bachelor's,Self-Employed,3,Low,Middle,No,West
+1477,48,Other,High School,Self-Employed,5,Moderate,Low,Yes,West
+1478,47,Male,High School,Self-Employed,2,High,Middle,Yes,North
+1479,56,Male,Diploma,Self-Employed,5,High,Middle,No,Central
+1480,52,Female,Bachelor's,Unemployed,5,Low,High,No,West
+1481,35,Female,PhD,Student,5,Moderate,Low,No,North
+1482,59,Female,PhD,Unemployed,1,Low,Middle,No,West
+1483,56,Female,Master's,Unemployed,5,High,Low,No,West
+1484,34,Other,High School,Employed,4,Low,Low,Yes,West
+1485,31,Other,Master's,Self-Employed,4,High,Middle,No,North
+1486,48,Other,Diploma,Unemployed,3,Moderate,Low,No,Central
+1487,41,Male,PhD,Self-Employed,5,Low,High,No,North
+1488,52,Other,High School,Unemployed,5,High,High,No,North
+1489,61,Other,Diploma,Unemployed,2,High,High,No,West
+1490,62,Other,Diploma,Employed,1,High,High,Yes,East
+1491,51,Female,High School,Student,3,High,Low,No,East
+1492,20,Other,Diploma,Student,5,Low,High,Yes,East
+1493,54,Male,High School,Unemployed,2,High,Middle,No,North
+1494,60,Female,High School,Employed,1,Low,High,No,West
+1495,57,Male,Bachelor's,Self-Employed,3,High,Middle,No,East
+1496,43,Other,Master's,Self-Employed,3,Low,Middle,Yes,South
+1497,40,Female,Diploma,Unemployed,5,Low,High,No,South
+1498,61,Male,Diploma,Student,3,High,High,No,South
+1499,56,Other,Bachelor's,Employed,2,High,Low,No,Central
+1500,32,Male,Bachelor's,Student,3,High,Middle,No,West
+1501,21,Male,Bachelor's,Self-Employed,4,High,High,No,North
+1502,46,Male,PhD,Student,2,Moderate,Low,No,North
+1503,39,Other,PhD,Self-Employed,1,High,High,No,West
+1504,42,Other,PhD,Employed,1,High,High,Yes,Central
+1505,30,Male,High School,Employed,5,High,High,No,West
+1506,35,Female,Diploma,Unemployed,5,Low,Middle,No,Central
+1507,50,Female,Master's,Unemployed,4,High,High,No,East
+1508,33,Other,High School,Student,1,Low,Low,Yes,East
+1509,62,Other,Diploma,Employed,1,Low,High,Yes,Central
+1510,59,Other,Diploma,Employed,1,Low,High,No,West
+1511,61,Other,Bachelor's,Unemployed,1,Low,Low,Yes,East
+1512,19,Other,Bachelor's,Self-Employed,3,Moderate,Low,No,West
+1513,52,Female,High School,Student,2,High,Middle,No,East
+1514,59,Other,Bachelor's,Student,2,Low,Middle,Yes,West
+1515,51,Male,Diploma,Unemployed,4,High,Middle,No,West
+1516,47,Male,Bachelor's,Employed,3,Low,Middle,Yes,South
+1517,30,Female,PhD,Unemployed,1,Moderate,Low,Yes,Central
+1518,30,Male,Bachelor's,Unemployed,1,Low,High,Yes,North
+1519,35,Female,Diploma,Unemployed,5,High,High,No,Central
+1520,49,Female,High School,Unemployed,5,High,High,No,West
+1521,49,Male,Master's,Self-Employed,4,Moderate,Middle,No,West
+1522,52,Other,Bachelor's,Self-Employed,1,High,Low,No,Central
+1523,56,Male,Diploma,Employed,4,High,Low,No,West
+1524,63,Male,Master's,Unemployed,3,Low,Low,No,East
+1525,46,Female,Master's,Self-Employed,2,High,High,No,West
+1526,46,Male,PhD,Employed,1,Low,Middle,Yes,Central
+1527,61,Female,Master's,Unemployed,3,Moderate,Low,No,Central
+1528,33,Other,Diploma,Student,1,High,Middle,No,Central
+1529,61,Other,Diploma,Self-Employed,5,Low,Low,No,South
+1530,64,Other,Bachelor's,Employed,4,High,Middle,Yes,South
+1531,27,Male,Bachelor's,Student,5,Low,Low,Yes,South
+1532,47,Female,Bachelor's,Unemployed,2,Moderate,Middle,Yes,South
+1533,42,Other,Master's,Unemployed,5,Low,Low,No,South
+1534,56,Female,Master's,Unemployed,1,High,Low,Yes,South
+1535,37,Female,PhD,Self-Employed,5,Low,Middle,Yes,South
+1536,22,Other,Bachelor's,Employed,1,High,Middle,No,Central
+1537,18,Other,High School,Student,2,Moderate,High,No,North
+1538,47,Female,PhD,Employed,5,Low,Middle,No,South
+1539,20,Other,High School,Self-Employed,4,High,Low,Yes,Central
+1540,62,Female,Master's,Employed,4,High,Low,No,North
+1541,31,Female,PhD,Self-Employed,4,High,Middle,No,South
+1542,47,Other,PhD,Unemployed,5,Low,High,No,North
+1543,21,Male,Diploma,Student,5,Low,Middle,No,North
+1544,35,Other,Master's,Unemployed,5,Low,Low,No,East
+1545,54,Male,Master's,Employed,1,Moderate,Low,No,West
+1546,42,Female,PhD,Unemployed,2,High,High,Yes,East
+1547,18,Female,Master's,Student,4,High,Middle,No,North
+1548,63,Male,PhD,Unemployed,1,Moderate,Low,Yes,Central
+1549,32,Female,Diploma,Student,4,Moderate,Low,Yes,South
+1550,26,Male,PhD,Student,1,Low,Low,No,West
+1551,32,Male,Master's,Unemployed,5,Low,Middle,Yes,South
+1552,41,Female,Master's,Self-Employed,4,Low,Middle,Yes,Central
+1553,21,Male,PhD,Employed,5,Low,High,Yes,West
+1554,29,Other,PhD,Self-Employed,4,Low,Low,No,East
+1555,54,Other,PhD,Self-Employed,3,Low,Low,Yes,North
+1556,54,Female,Bachelor's,Unemployed,1,Moderate,High,Yes,Central
+1557,60,Female,Master's,Employed,3,Moderate,Low,Yes,North
+1558,23,Male,Master's,Employed,1,Moderate,High,Yes,North
+1559,56,Male,Bachelor's,Self-Employed,2,High,High,No,South
+1560,63,Male,PhD,Unemployed,4,High,Low,No,Central
+1561,41,Male,Diploma,Employed,2,Low,Middle,Yes,North
+1562,28,Other,PhD,Self-Employed,2,Moderate,Middle,No,East
+1563,30,Other,PhD,Employed,1,High,Middle,No,West
+1564,51,Female,Bachelor's,Unemployed,3,High,Middle,Yes,Central
+1565,42,Male,Master's,Unemployed,5,Moderate,Low,No,South
+1566,24,Male,PhD,Unemployed,1,High,High,No,Central
+1567,21,Female,Master's,Employed,5,High,High,Yes,South
+1568,25,Male,High School,Student,2,Moderate,Low,Yes,West
+1569,37,Male,Master's,Employed,5,High,Middle,No,East
+1570,46,Male,Diploma,Student,3,Moderate,High,No,North
+1571,62,Male,Diploma,Unemployed,1,High,Low,No,Central
+1572,63,Male,PhD,Self-Employed,3,Moderate,Low,No,South
+1573,27,Female,Master's,Student,3,High,Middle,Yes,West
+1574,60,Male,PhD,Unemployed,1,High,Low,Yes,North
+1575,51,Female,Bachelor's,Unemployed,3,Moderate,High,Yes,West
+1576,43,Male,Diploma,Student,4,High,High,Yes,East
+1577,58,Other,PhD,Self-Employed,4,Moderate,Low,Yes,North
+1578,20,Other,Bachelor's,Unemployed,4,Moderate,High,No,North
+1579,23,Other,PhD,Student,5,High,Low,No,North
+1580,22,Other,Master's,Self-Employed,3,Low,High,Yes,South
+1581,22,Female,Master's,Self-Employed,1,High,Middle,Yes,North
+1582,64,Female,Master's,Unemployed,1,Low,High,Yes,West
+1583,40,Male,Master's,Employed,5,Low,Middle,No,South
+1584,26,Other,High School,Employed,1,High,Middle,No,North
+1585,52,Female,Bachelor's,Unemployed,4,Low,Low,No,West
+1586,37,Male,Bachelor's,Self-Employed,3,Moderate,Middle,Yes,West
+1587,59,Male,Master's,Unemployed,1,Moderate,High,Yes,Central
+1588,52,Female,High School,Student,1,Low,High,Yes,West
+1589,35,Other,Master's,Employed,2,Moderate,Middle,Yes,East
+1590,34,Male,High School,Student,2,High,Low,Yes,North
+1591,41,Other,Master's,Unemployed,2,Moderate,Middle,No,North
+1592,20,Other,Diploma,Unemployed,3,Low,High,Yes,North
+1593,49,Other,Diploma,Self-Employed,4,High,High,No,West
+1594,52,Male,PhD,Self-Employed,4,Moderate,Middle,No,West
+1595,55,Other,Master's,Self-Employed,4,High,Middle,No,North
+1596,30,Male,Bachelor's,Student,3,Low,Middle,No,South
+1597,64,Other,PhD,Self-Employed,3,Moderate,High,No,South
+1598,42,Male,Diploma,Unemployed,2,High,High,Yes,East
+1599,26,Other,Master's,Self-Employed,1,High,High,Yes,Central
+1600,21,Female,PhD,Employed,5,Moderate,Low,Yes,East
+1601,31,Other,Master's,Self-Employed,5,High,High,No,North
+1602,54,Other,Diploma,Student,1,High,High,No,North
+1603,51,Male,PhD,Employed,2,Low,Low,No,North
+1604,28,Male,Diploma,Employed,1,Low,Low,No,Central
+1605,58,Other,High School,Employed,1,Low,Low,No,West
+1606,20,Female,Diploma,Student,5,Low,Low,No,Central
+1607,45,Female,Master's,Unemployed,2,Low,Low,Yes,East
+1608,46,Male,Bachelor's,Self-Employed,3,Low,Low,No,West
+1609,26,Female,Diploma,Employed,5,Moderate,Middle,No,West
+1610,20,Other,Bachelor's,Employed,3,Low,Middle,Yes,East
+1611,42,Male,High School,Employed,2,High,Middle,No,West
+1612,51,Other,PhD,Unemployed,1,Moderate,Middle,Yes,South
+1613,29,Male,PhD,Unemployed,4,High,High,Yes,East
+1614,59,Male,Bachelor's,Student,4,Low,Low,Yes,East
+1615,26,Male,PhD,Unemployed,2,Low,High,No,South
+1616,32,Male,Diploma,Self-Employed,4,High,Low,Yes,Central
+1617,57,Female,Bachelor's,Student,3,High,Low,Yes,Central
+1618,42,Other,Master's,Student,4,High,High,No,Central
+1619,22,Other,Diploma,Self-Employed,2,Moderate,Middle,Yes,West
+1620,28,Other,Diploma,Self-Employed,2,Low,High,No,South
+1621,51,Male,Diploma,Self-Employed,3,High,High,No,East
+1622,41,Female,Master's,Student,4,Low,Low,Yes,East
+1623,32,Other,High School,Student,4,High,Low,No,East
+1624,55,Female,PhD,Student,1,Low,Low,No,West
+1625,25,Male,Bachelor's,Self-Employed,5,Moderate,Middle,Yes,West
+1626,22,Other,High School,Self-Employed,2,Low,High,Yes,Central
+1627,43,Female,Bachelor's,Employed,1,High,High,Yes,West
+1628,35,Male,PhD,Unemployed,2,Low,Middle,Yes,Central
+1629,23,Female,Master's,Employed,1,Moderate,High,No,Central
+1630,54,Other,Diploma,Self-Employed,5,Moderate,High,Yes,East
+1631,30,Other,Diploma,Student,1,Low,Low,Yes,West
+1632,45,Male,Master's,Self-Employed,2,High,Middle,Yes,Central
+1633,22,Male,High School,Unemployed,4,Moderate,Low,No,South
+1634,30,Male,High School,Employed,2,Moderate,Middle,No,South
+1635,34,Female,Bachelor's,Employed,3,Low,Low,No,West
+1636,57,Female,Master's,Student,3,Moderate,High,No,East
+1637,62,Female,High School,Employed,3,Moderate,Middle,No,East
+1638,49,Male,Master's,Employed,3,High,Middle,Yes,Central
+1639,46,Other,PhD,Self-Employed,5,High,Low,No,West
+1640,20,Other,Diploma,Employed,4,High,Middle,No,South
+1641,57,Female,Diploma,Employed,4,Low,High,No,Central
+1642,51,Female,Diploma,Employed,2,Moderate,High,Yes,Central
+1643,57,Other,Master's,Student,1,Low,High,Yes,North
+1644,44,Other,Master's,Student,2,Moderate,Low,No,West
+1645,30,Female,Bachelor's,Self-Employed,2,Moderate,Middle,Yes,Central
+1646,62,Female,Diploma,Employed,2,Moderate,Low,No,South
+1647,50,Other,Bachelor's,Student,2,High,High,Yes,North
+1648,23,Male,Diploma,Student,4,Low,Middle,Yes,South
+1649,41,Female,Bachelor's,Self-Employed,1,Low,High,No,East
+1650,36,Other,Bachelor's,Unemployed,2,Moderate,Middle,Yes,North
+1651,33,Other,PhD,Employed,4,Low,Middle,No,North
+1652,57,Other,Bachelor's,Student,2,High,Low,No,Central
+1653,45,Other,Master's,Self-Employed,3,Low,Middle,No,East
+1654,50,Male,Bachelor's,Self-Employed,2,Moderate,High,Yes,Central
+1655,58,Other,Diploma,Self-Employed,2,High,Middle,Yes,West
+1656,30,Female,Bachelor's,Student,5,High,High,No,South
+1657,60,Male,High School,Employed,3,Moderate,Low,No,South
+1658,62,Other,Diploma,Unemployed,1,Low,High,Yes,Central
+1659,42,Male,High School,Employed,2,Moderate,Middle,No,South
+1660,59,Female,Diploma,Self-Employed,1,Low,High,Yes,South
+1661,53,Other,Master's,Self-Employed,3,Low,High,Yes,West
+1662,44,Female,Master's,Unemployed,2,High,Middle,Yes,East
+1663,55,Other,Master's,Employed,5,Moderate,High,No,North
+1664,24,Other,High School,Self-Employed,4,High,Middle,No,Central
+1665,22,Other,PhD,Self-Employed,5,Moderate,Low,Yes,Central
+1666,60,Other,Diploma,Employed,5,Moderate,High,No,West
+1667,62,Other,Master's,Self-Employed,4,High,Low,No,West
+1668,48,Male,Diploma,Employed,4,Moderate,High,Yes,North
+1669,40,Other,High School,Self-Employed,4,Moderate,High,Yes,East
+1670,59,Other,PhD,Employed,2,Low,Low,No,Central
+1671,27,Male,High School,Unemployed,1,Moderate,High,Yes,West
+1672,49,Male,Diploma,Self-Employed,1,Moderate,High,No,Central
+1673,60,Male,PhD,Unemployed,4,High,Low,Yes,South
+1674,47,Male,PhD,Self-Employed,5,High,High,Yes,Central
+1675,56,Male,High School,Self-Employed,3,Moderate,Middle,No,East
+1676,48,Male,Master's,Student,4,Low,High,No,East
+1677,35,Other,Diploma,Employed,5,Low,High,No,Central
+1678,53,Other,Bachelor's,Unemployed,5,High,High,No,South
+1679,19,Female,Bachelor's,Unemployed,2,Moderate,Low,No,East
+1680,31,Other,High School,Unemployed,2,Moderate,Middle,Yes,West
+1681,30,Other,Diploma,Employed,1,Low,Middle,Yes,Central
+1682,46,Male,Diploma,Student,1,Low,High,No,South
+1683,29,Male,High School,Unemployed,3,Low,Low,Yes,West
+1684,56,Other,Diploma,Employed,3,High,Low,No,Central
+1685,19,Female,Master's,Self-Employed,3,Moderate,Middle,Yes,South
+1686,49,Male,High School,Unemployed,3,High,Low,Yes,West
+1687,30,Other,Master's,Unemployed,5,Moderate,High,No,East
+1688,63,Other,Diploma,Student,5,High,High,No,Central
+1689,44,Female,High School,Unemployed,1,Moderate,Low,No,Central
+1690,58,Female,Diploma,Unemployed,2,Low,High,Yes,East
+1691,34,Male,High School,Self-Employed,2,Low,Middle,No,North
+1692,57,Female,Diploma,Employed,4,Low,High,No,West
+1693,48,Other,Master's,Employed,5,High,Low,No,East
+1694,51,Other,Master's,Student,3,Low,Middle,No,Central
+1695,41,Female,Diploma,Self-Employed,3,Moderate,High,No,West
+1696,62,Female,High School,Employed,4,High,Middle,No,West
+1697,52,Female,Bachelor's,Self-Employed,2,Moderate,Low,Yes,North
+1698,23,Female,Master's,Employed,3,High,High,Yes,Central
+1699,36,Male,Master's,Self-Employed,2,Moderate,High,Yes,South
+1700,47,Female,Bachelor's,Student,4,Moderate,Middle,Yes,North
+1701,24,Male,Diploma,Unemployed,2,High,High,No,North
+1702,27,Other,High School,Student,2,High,High,No,South
+1703,58,Female,Diploma,Employed,2,Low,High,Yes,South
+1704,49,Male,PhD,Student,3,Low,High,Yes,North
+1705,51,Female,Master's,Unemployed,1,Moderate,Low,Yes,West
+1706,45,Other,PhD,Student,5,Moderate,High,No,East
+1707,32,Other,Master's,Employed,2,Moderate,Middle,No,East
+1708,47,Other,Master's,Employed,2,High,Low,No,North
+1709,54,Female,PhD,Student,2,High,Middle,Yes,West
+1710,46,Female,PhD,Unemployed,1,Low,Middle,Yes,South
+1711,39,Male,Diploma,Student,4,Moderate,Middle,Yes,North
+1712,21,Other,PhD,Unemployed,3,Low,Low,Yes,Central
+1713,37,Female,Diploma,Self-Employed,1,High,Low,Yes,West
+1714,49,Other,Diploma,Unemployed,2,High,Low,No,Central
+1715,53,Other,Diploma,Self-Employed,1,High,High,No,Central
+1716,21,Male,Master's,Student,1,Low,Middle,No,North
+1717,44,Male,Master's,Unemployed,1,High,Low,No,West
+1718,34,Male,PhD,Self-Employed,4,Moderate,Middle,No,Central
+1719,29,Male,Master's,Self-Employed,5,Low,Low,Yes,West
+1720,39,Other,PhD,Self-Employed,3,High,Low,No,East
+1721,34,Male,Master's,Employed,4,Low,Low,Yes,Central
+1722,27,Male,High School,Student,4,Low,Middle,No,Central
+1723,18,Male,High School,Self-Employed,5,High,High,Yes,West
+1724,39,Male,PhD,Unemployed,4,High,Low,Yes,East
+1725,43,Other,Master's,Self-Employed,1,Low,Low,Yes,Central
+1726,35,Male,Master's,Employed,1,Low,Low,Yes,North
+1727,31,Other,Diploma,Student,2,High,High,Yes,West
+1728,64,Female,Bachelor's,Employed,4,Moderate,Middle,Yes,West
+1729,46,Other,PhD,Employed,2,Low,Middle,No,Central
+1730,29,Other,Bachelor's,Employed,3,Low,Middle,Yes,East
+1731,53,Male,Bachelor's,Unemployed,1,Moderate,Middle,Yes,Central
+1732,52,Female,PhD,Student,3,High,Low,No,South
+1733,29,Female,Master's,Student,5,High,High,Yes,Central
+1734,24,Female,PhD,Unemployed,1,Moderate,Low,No,South
+1735,46,Female,Bachelor's,Student,3,High,High,No,North
+1736,28,Other,Master's,Employed,5,High,Middle,Yes,West
+1737,50,Female,High School,Student,3,Low,High,Yes,West
+1738,23,Other,PhD,Unemployed,5,Low,Low,No,East
+1739,64,Other,PhD,Employed,5,Low,Low,Yes,Central
+1740,32,Other,Master's,Unemployed,1,Moderate,Middle,No,North
+1741,49,Female,High School,Self-Employed,2,High,Low,Yes,South
+1742,28,Male,High School,Employed,5,High,Low,No,East
+1743,40,Male,Master's,Employed,5,Low,High,Yes,North
+1744,43,Female,Diploma,Student,1,Low,Low,Yes,North
+1745,51,Male,PhD,Employed,2,Moderate,Middle,No,South
+1746,63,Male,PhD,Unemployed,4,High,Middle,No,South
+1747,51,Other,Bachelor's,Student,4,Moderate,Low,No,West
+1748,46,Other,Master's,Self-Employed,2,High,Middle,No,Central
+1749,21,Female,Bachelor's,Unemployed,3,Moderate,High,Yes,East
+1750,34,Female,Bachelor's,Self-Employed,1,Low,High,No,Central
+1751,52,Male,High School,Self-Employed,2,Moderate,Low,No,East
+1752,30,Other,PhD,Self-Employed,4,Moderate,Low,Yes,North
+1753,58,Female,Bachelor's,Employed,5,Low,High,Yes,South
+1754,56,Female,High School,Unemployed,4,High,Middle,No,South
+1755,32,Female,Master's,Unemployed,5,High,Low,Yes,North
+1756,46,Female,Bachelor's,Employed,1,Low,Low,No,North
+1757,46,Female,PhD,Student,5,Moderate,Middle,Yes,East
+1758,28,Female,Bachelor's,Self-Employed,2,Moderate,Low,No,North
+1759,49,Male,Master's,Unemployed,5,Moderate,Middle,Yes,East
+1760,19,Other,Bachelor's,Employed,3,High,Middle,No,Central
+1761,64,Other,PhD,Self-Employed,2,Moderate,Middle,No,South
+1762,31,Female,High School,Student,1,High,Middle,Yes,South
+1763,37,Other,PhD,Student,2,Moderate,Middle,Yes,South
+1764,39,Other,High School,Self-Employed,3,Low,High,No,Central
+1765,28,Other,Diploma,Student,1,Low,Middle,No,Central
+1766,44,Female,PhD,Unemployed,4,High,High,Yes,West
+1767,20,Female,PhD,Unemployed,3,High,Middle,Yes,East
+1768,34,Other,Master's,Unemployed,1,Low,Low,Yes,East
+1769,61,Other,Bachelor's,Student,5,Low,High,Yes,West
+1770,45,Female,High School,Unemployed,2,Moderate,Low,Yes,South
+1771,46,Male,High School,Employed,1,Low,Middle,Yes,East
+1772,38,Other,Master's,Unemployed,2,High,Middle,Yes,East
+1773,64,Male,Master's,Unemployed,5,Low,Low,Yes,South
+1774,33,Other,Bachelor's,Student,1,High,Middle,Yes,North
+1775,54,Male,Bachelor's,Unemployed,4,High,Low,No,North
+1776,37,Male,PhD,Self-Employed,3,Moderate,Middle,Yes,West
+1777,23,Male,Diploma,Employed,1,Moderate,Middle,Yes,Central
+1778,36,Female,Bachelor's,Student,5,Moderate,High,No,East
+1779,22,Male,Master's,Employed,1,Moderate,Low,No,East
+1780,20,Male,Bachelor's,Self-Employed,2,Low,Middle,No,West
+1781,18,Male,High School,Student,1,Moderate,Low,No,West
+1782,55,Other,Diploma,Student,4,Low,High,No,East
+1783,32,Male,PhD,Unemployed,1,Moderate,Low,No,South
+1784,51,Other,High School,Employed,3,Moderate,High,Yes,South
+1785,52,Male,High School,Self-Employed,1,High,Low,No,Central
+1786,42,Male,Diploma,Self-Employed,2,Low,Low,No,East
+1787,41,Female,PhD,Student,1,High,High,No,East
+1788,29,Other,Master's,Unemployed,4,Moderate,Middle,Yes,East
+1789,35,Male,PhD,Student,5,Low,Middle,No,East
+1790,32,Other,Bachelor's,Student,1,Moderate,Middle,Yes,West
+1791,61,Other,High School,Student,1,High,Low,No,North
+1792,33,Female,Bachelor's,Student,3,Low,Low,No,East
+1793,44,Female,Master's,Self-Employed,4,High,Middle,Yes,North
+1794,25,Female,Bachelor's,Self-Employed,5,Moderate,Low,Yes,South
+1795,63,Female,PhD,Student,2,Moderate,Low,No,Central
+1796,42,Female,Bachelor's,Student,1,Moderate,Middle,Yes,South
+1797,34,Female,Master's,Unemployed,5,Low,High,Yes,East
+1798,46,Female,Master's,Student,2,High,Low,No,South
+1799,25,Female,Master's,Self-Employed,4,High,Low,No,West
+1800,32,Male,PhD,Employed,4,Moderate,Low,No,North
+1801,44,Other,Master's,Self-Employed,5,High,Low,Yes,East
+1802,63,Female,High School,Unemployed,2,Low,High,No,West
+1803,24,Female,Master's,Self-Employed,4,Moderate,Middle,No,North
+1804,20,Other,Bachelor's,Employed,5,Moderate,Low,Yes,West
+1805,46,Male,Bachelor's,Student,4,Moderate,Middle,Yes,South
+1806,61,Other,Bachelor's,Employed,4,Low,Low,No,East
+1807,41,Other,PhD,Student,4,Moderate,High,Yes,South
+1808,20,Female,Bachelor's,Student,3,Moderate,Middle,No,Central
+1809,37,Other,PhD,Self-Employed,2,Moderate,High,Yes,East
+1810,63,Other,PhD,Self-Employed,5,Moderate,Low,No,South
+1811,32,Female,Master's,Self-Employed,5,High,High,Yes,East
+1812,42,Female,High School,Unemployed,2,Moderate,High,Yes,North
+1813,47,Female,Master's,Self-Employed,2,Low,Low,Yes,East
+1814,31,Female,Master's,Unemployed,2,Moderate,Low,Yes,East
+1815,24,Other,PhD,Self-Employed,2,Moderate,Middle,No,North
+1816,34,Other,PhD,Student,1,High,Low,Yes,South
+1817,61,Male,Bachelor's,Unemployed,5,Moderate,Middle,No,East
+1818,37,Male,Bachelor's,Employed,1,High,High,Yes,West
+1819,53,Other,Master's,Unemployed,4,Low,High,Yes,East
+1820,26,Male,Diploma,Unemployed,4,High,Middle,No,South
+1821,55,Other,Diploma,Employed,5,Moderate,Low,Yes,North
+1822,39,Male,Bachelor's,Unemployed,4,Low,Low,Yes,South
+1823,19,Female,Diploma,Student,2,Moderate,High,No,Central
+1824,41,Male,Bachelor's,Self-Employed,1,High,Middle,Yes,East
+1825,25,Female,PhD,Employed,2,Low,High,No,East
+1826,28,Female,Master's,Self-Employed,4,Low,High,Yes,North
+1827,30,Female,High School,Student,1,High,Low,Yes,East
+1828,34,Female,Master's,Employed,2,High,Middle,Yes,West
+1829,25,Male,Bachelor's,Self-Employed,5,Low,High,No,West
+1830,38,Other,Bachelor's,Self-Employed,2,Low,Low,Yes,South
+1831,35,Female,Master's,Student,4,High,High,Yes,North
+1832,47,Male,Bachelor's,Self-Employed,1,Moderate,High,Yes,Central
+1833,35,Female,Diploma,Student,5,Low,Low,Yes,South
+1834,63,Male,Diploma,Unemployed,1,High,Low,Yes,North
+1835,64,Male,Bachelor's,Student,5,Moderate,Middle,Yes,North
+1836,48,Male,Bachelor's,Unemployed,1,Low,High,Yes,South
+1837,55,Other,Diploma,Employed,4,Low,Middle,Yes,South
+1838,49,Male,Bachelor's,Self-Employed,5,High,Low,Yes,East
+1839,28,Male,Bachelor's,Student,3,Moderate,Low,No,Central
+1840,62,Other,Master's,Student,1,Low,High,Yes,West
+1841,42,Other,High School,Self-Employed,1,Moderate,Middle,No,East
+1842,50,Male,Diploma,Self-Employed,2,Moderate,Middle,No,North
+1843,55,Other,Master's,Employed,5,Low,High,No,Central
+1844,58,Female,High School,Employed,3,Moderate,High,Yes,Central
+1845,25,Female,Bachelor's,Student,4,Low,Middle,No,South
+1846,28,Other,Bachelor's,Employed,2,Moderate,Low,No,Central
+1847,39,Other,Master's,Unemployed,3,Low,Low,No,Central
+1848,41,Male,Bachelor's,Employed,5,High,High,Yes,North
+1849,58,Other,PhD,Employed,3,Low,Middle,No,East
+1850,34,Male,Master's,Student,1,Low,Middle,Yes,Central
+1851,29,Female,High School,Unemployed,1,Low,Middle,No,South
+1852,63,Other,Master's,Employed,2,Moderate,Low,No,East
+1853,49,Male,Diploma,Unemployed,5,High,Low,Yes,South
+1854,32,Male,Master's,Unemployed,5,Moderate,Middle,Yes,Central
+1855,33,Female,Bachelor's,Unemployed,3,Moderate,Middle,No,East
+1856,39,Other,Bachelor's,Self-Employed,2,Low,High,No,Central
+1857,45,Female,PhD,Self-Employed,5,Moderate,High,No,North
+1858,37,Male,PhD,Self-Employed,1,Low,Middle,Yes,East
+1859,50,Male,PhD,Self-Employed,3,High,Middle,Yes,South
+1860,27,Other,High School,Student,4,Moderate,Low,No,North
+1861,57,Male,PhD,Employed,1,Moderate,Middle,No,West
+1862,49,Other,High School,Self-Employed,2,Moderate,High,Yes,South
+1863,50,Female,PhD,Student,5,Low,Low,Yes,Central
+1864,19,Other,High School,Employed,1,Low,High,No,South
+1865,50,Other,Master's,Self-Employed,4,Moderate,High,Yes,West
+1866,50,Male,Master's,Employed,4,Moderate,Low,No,South
+1867,58,Male,Bachelor's,Self-Employed,2,High,High,Yes,North
+1868,30,Other,High School,Student,1,High,Middle,No,South
+1869,47,Male,Diploma,Unemployed,3,High,High,No,East
+1870,50,Male,Bachelor's,Unemployed,1,High,Low,No,West
+1871,30,Male,Master's,Employed,4,High,Low,Yes,South
+1872,43,Other,High School,Student,2,Low,Low,No,West
+1873,39,Male,PhD,Unemployed,2,High,High,No,North
+1874,56,Other,Diploma,Self-Employed,3,High,Middle,Yes,East
+1875,19,Male,Master's,Unemployed,2,Moderate,Low,No,Central
+1876,55,Female,Bachelor's,Employed,2,Low,Middle,No,South
+1877,56,Male,High School,Employed,2,High,Low,No,North
+1878,43,Male,Diploma,Student,2,High,Middle,Yes,West
+1879,63,Other,High School,Employed,2,High,Middle,Yes,West
+1880,32,Other,PhD,Unemployed,4,Moderate,Middle,Yes,North
+1881,51,Male,Bachelor's,Unemployed,1,Moderate,Low,Yes,South
+1882,59,Female,High School,Unemployed,5,Moderate,High,No,Central
+1883,61,Male,Master's,Unemployed,2,High,High,Yes,South
+1884,57,Male,Bachelor's,Student,5,Moderate,High,Yes,East
+1885,28,Female,Master's,Self-Employed,5,High,Middle,Yes,South
+1886,20,Other,High School,Self-Employed,4,Low,Low,No,East
+1887,23,Male,Bachelor's,Student,2,High,Middle,No,West
+1888,26,Other,Master's,Employed,5,Moderate,Low,No,East
+1889,23,Other,PhD,Self-Employed,2,Low,Middle,Yes,Central
+1890,26,Female,PhD,Employed,3,High,Low,No,North
+1891,56,Female,High School,Self-Employed,3,Low,Low,No,East
+1892,48,Other,Bachelor's,Employed,3,Low,Low,Yes,South
+1893,49,Male,Diploma,Student,5,Low,Middle,No,East
+1894,58,Other,Bachelor's,Unemployed,3,High,High,Yes,West
+1895,29,Male,PhD,Employed,4,Moderate,Middle,Yes,East
+1896,25,Male,Master's,Unemployed,4,High,Middle,No,Central
+1897,25,Female,Diploma,Employed,5,Moderate,Low,Yes,East
+1898,45,Male,High School,Employed,2,High,Low,Yes,Central
+1899,37,Male,Diploma,Employed,1,High,High,Yes,South
+1900,64,Other,High School,Employed,2,High,High,Yes,West
+1901,24,Female,Diploma,Employed,2,Moderate,Low,Yes,North
+1902,28,Male,High School,Unemployed,2,High,High,Yes,South
+1903,37,Male,High School,Employed,2,Low,High,No,South
+1904,33,Female,Diploma,Unemployed,1,High,Low,Yes,North
+1905,21,Other,Diploma,Student,3,Low,Middle,Yes,East
+1906,23,Female,High School,Self-Employed,2,Moderate,High,Yes,East
+1907,39,Female,PhD,Employed,4,Moderate,Low,Yes,East
+1908,43,Male,Diploma,Self-Employed,5,High,High,No,West
+1909,20,Male,Bachelor's,Unemployed,5,High,High,No,South
+1910,58,Other,Master's,Student,4,High,Low,Yes,Central
+1911,59,Male,High School,Student,2,Low,High,No,North
+1912,31,Male,High School,Student,1,Moderate,High,Yes,South
+1913,28,Female,Master's,Self-Employed,3,Low,High,Yes,East
+1914,35,Male,PhD,Unemployed,5,Low,Middle,Yes,North
+1915,29,Other,Master's,Employed,3,High,Middle,Yes,Central
+1916,40,Female,Diploma,Employed,1,High,High,No,South
+1917,29,Other,Master's,Unemployed,5,Low,Low,No,South
+1918,30,Female,High School,Self-Employed,3,Low,High,Yes,West
+1919,42,Male,Master's,Employed,1,High,High,Yes,South
+1920,62,Female,Bachelor's,Unemployed,3,High,Middle,No,South
+1921,36,Female,Diploma,Employed,2,Low,Middle,No,Central
+1922,63,Male,Master's,Student,1,High,Middle,Yes,Central
+1923,53,Male,High School,Employed,3,High,High,No,North
+1924,62,Other,Diploma,Self-Employed,2,Low,High,Yes,East
+1925,25,Other,High School,Unemployed,2,Low,Low,No,Central
+1926,46,Male,PhD,Self-Employed,1,Moderate,High,No,North
+1927,49,Male,Bachelor's,Unemployed,4,Low,High,No,South
+1928,61,Male,PhD,Student,5,High,Middle,No,North
+1929,35,Female,Bachelor's,Unemployed,1,Low,Middle,Yes,North
+1930,23,Female,Master's,Employed,2,Low,Middle,Yes,North
+1931,35,Female,Diploma,Employed,2,Low,Middle,No,North
+1932,36,Male,Master's,Student,1,Moderate,Middle,Yes,Central
+1933,39,Other,Bachelor's,Unemployed,4,Moderate,Low,No,East
+1934,54,Male,Bachelor's,Student,5,High,Low,No,North
+1935,49,Female,Bachelor's,Employed,3,Moderate,Low,Yes,West
+1936,58,Female,High School,Self-Employed,1,Low,Middle,Yes,South
+1937,20,Male,Diploma,Student,5,Moderate,Middle,Yes,South
+1938,45,Male,Master's,Self-Employed,5,Low,Middle,No,South
+1939,27,Female,Master's,Self-Employed,2,Moderate,Low,Yes,South
+1940,52,Female,PhD,Unemployed,3,Moderate,Middle,Yes,South
+1941,46,Female,Bachelor's,Student,1,Moderate,Low,Yes,North
+1942,32,Male,Bachelor's,Self-Employed,2,Low,Middle,Yes,East
+1943,50,Female,Bachelor's,Self-Employed,2,Moderate,High,No,West
+1944,24,Female,Master's,Unemployed,4,Low,Low,No,Central
+1945,29,Other,PhD,Unemployed,5,Low,High,No,West
+1946,47,Male,High School,Employed,1,High,Low,No,Central
+1947,38,Other,Diploma,Self-Employed,1,Moderate,Middle,No,Central
+1948,48,Other,High School,Employed,1,High,Middle,No,West
+1949,41,Female,Master's,Self-Employed,2,High,High,No,North
+1950,37,Male,Bachelor's,Employed,4,Low,Middle,Yes,South
+1951,54,Female,Diploma,Unemployed,3,Moderate,Low,No,North
+1952,21,Male,Master's,Student,2,Low,Middle,No,South
+1953,45,Other,Master's,Unemployed,3,Low,Middle,No,East
+1954,61,Male,Master's,Employed,4,Moderate,Low,No,Central
+1955,37,Female,Diploma,Employed,5,Low,High,Yes,West
+1956,41,Female,Diploma,Student,1,Moderate,High,No,East
+1957,49,Female,PhD,Self-Employed,3,Moderate,Middle,No,South
+1958,58,Male,PhD,Employed,2,Low,Low,Yes,North
+1959,53,Other,High School,Employed,3,Low,High,No,West
+1960,51,Other,Diploma,Employed,5,High,High,No,Central
+1961,53,Male,Diploma,Student,1,Low,Middle,No,East
+1962,19,Female,Diploma,Unemployed,3,Moderate,Low,No,Central
+1963,32,Other,PhD,Employed,5,High,High,No,South
+1964,51,Female,Master's,Student,2,Moderate,Middle,No,Central
+1965,53,Male,Bachelor's,Employed,4,High,Middle,No,North
+1966,23,Female,PhD,Self-Employed,2,Low,Middle,Yes,East
+1967,56,Other,Diploma,Student,1,Low,Middle,Yes,East
+1968,59,Other,PhD,Employed,2,Low,High,No,North
+1969,29,Female,High School,Student,2,Moderate,Low,Yes,Central
+1970,20,Male,Diploma,Employed,2,High,Middle,No,North
+1971,62,Female,High School,Unemployed,2,Moderate,Middle,Yes,West
+1972,35,Male,Diploma,Employed,1,High,High,No,North
+1973,57,Female,PhD,Student,5,Low,Middle,Yes,Central
+1974,38,Other,Master's,Self-Employed,3,Moderate,Middle,No,North
+1975,32,Male,Bachelor's,Self-Employed,4,Low,Low,Yes,South
+1976,50,Male,High School,Self-Employed,3,Moderate,Middle,Yes,North
+1977,52,Male,PhD,Employed,3,Low,High,No,North
+1978,43,Other,Master's,Unemployed,4,Moderate,Low,No,Central
+1979,25,Female,PhD,Employed,1,Moderate,High,Yes,West
+1980,53,Other,High School,Self-Employed,4,High,Low,Yes,West
+1981,47,Male,Bachelor's,Student,1,Low,Low,No,Central
+1982,40,Female,PhD,Self-Employed,3,High,Middle,Yes,Central
+1983,59,Other,Diploma,Student,1,High,Middle,No,Central
+1984,61,Male,Master's,Unemployed,5,Low,Middle,Yes,South
+1985,31,Male,PhD,Student,4,Moderate,High,Yes,East
+1986,31,Other,Master's,Employed,5,High,Middle,No,North
+1987,19,Other,Diploma,Employed,3,Low,Middle,No,Central
+1988,54,Other,Bachelor's,Employed,4,Moderate,Low,No,Central
+1989,22,Male,Bachelor's,Student,3,High,Middle,Yes,Central
+1990,55,Other,Diploma,Employed,5,High,Middle,Yes,West
+1991,62,Male,Master's,Employed,3,High,Middle,Yes,Central
+1992,58,Other,PhD,Employed,4,Moderate,Middle,No,North
+1993,64,Male,Diploma,Unemployed,4,High,Low,Yes,Central
+1994,31,Male,High School,Student,3,Moderate,Middle,Yes,North
+1995,56,Female,Master's,Student,4,High,Low,No,South
+1996,42,Other,Bachelor's,Self-Employed,4,Low,High,Yes,East
+1997,37,Other,Diploma,Student,3,High,Middle,Yes,West
+1998,19,Male,Bachelor's,Unemployed,5,Low,Middle,No,North
+1999,56,Male,Master's,Student,4,Low,Middle,No,South
+2000,23,Male,Bachelor's,Unemployed,4,Low,Low,No,East

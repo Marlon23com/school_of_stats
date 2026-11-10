@@ -1,0 +1,50 @@
+---
+title: "Day1"
+author: "Tinotenda Marlon Makwara"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+install.packages('pacman')
+
+pacman::p_load(
+  # data wrangling
+  tidyverse, readxl, tidylog, data.table, janitor,
+  
+  
+  # exploratory data analysis
+  skimr, summarytools, psych, Hmisc,
+  
+  # machine learning
+  class,
+  FNN,
+  caret,
+  cluster,
+  factoextra,
+  NbClust,
+  clvalid,
+  e1071,
+  
+  
+  # visualization
+  ggpubr, plotly, factoextra, plotly, RColorBrewer, corrplot, GGally
+)
+```
+
+
+```{r}
+data_file <- file.choose()
+
+df <- read_excel(data_file)
+
+```
+
+Inspect the data
+
+```{r}
+summary(df)
+
+```
+
+
